@@ -155,24 +155,38 @@ Quy trình nháp hiện tại:
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Khi nghe top 3, điều tôi học được nhiều nhất là cách phân biệt "trùng ý trong nhóm" với "pain thật của người ngoài". Card của tôi (#8, đối chiếu rubric) được gom chung cluster A với card của Huyền và Nga, và cluster A được chọn. Nhưng chính vì ba người cùng chú ý đến việc soát bài trước khi nộp, tôi nhận ra sự trùng nhau mới chỉ là tín hiệu nội bộ, chưa chứng minh đây là pain chung của lớp. Card #10 của Tâm về hiểu phản hồi giảng viên khiến tôi thấy một khó khăn gần với mình mà tôi đã không đưa vào top 3. Card #2 của Huyền về tìm lại câu trả lời cũ của coach cũng cho thấy cùng một việc "đọc nhiều thông tin rải rác" có thể xuất hiện ở bối cảnh khác, không chỉ ở việc soát rubric. Tôi cũng học được từ cách các bạn đặt câu hỏi phản biện: thay vì hỏi "giải pháp gì", các bạn hỏi "ai thực sự gặp", "đo bằng gì", "đã thử cách đơn giản hơn chưa".
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+### 6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Có. Trong cây OST, "Chatbot kiểm tra rubric" và "Script tự kiểm tên file" bị gạch vì đó là giải pháp/cách làm, chưa phải mô tả khó khăn hay cơ hội của người học. Tôi không có ghi chép đủ chắc để nói ai là người đầu tiên nêu hay ai phát hiện lỗi phân loại; điều tôi xác nhận được là nhóm đã chuyển trọng tâm sang các khó khăn như rubric có nhiều điều kiện phụ, phải dò thủ công báo cáo dài, và chỉ phát hiện lỗi hình thức gần deadline. Nhìn lại, chính tôi cũng góp phần vào solution-first: ở CP2 tôi đã ghi giả thuyết AI đọc rubric và bài làm rồi chỉ ra mục còn thiếu khá sớm. Câu hỏi "mẫu bảng cố định, không dùng AI, đã đủ giảm phần lớn thời gian chưa?" mà tôi chuẩn bị cho phần phản biện giúp tôi giữ lại một phương án không AI để so sánh, thay vì mặc định phải dùng AI. Tôi nghĩ đây là bài học: khi mình đã nghĩ tới AI sớm, cần tự đặt câu hỏi ngược "nếu không có AI thì sao" để không bỏ qua phương án đơn giản.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Có, và lần rõ nhất là với Card #1 (so sánh phương pháp nhiều bài báo). Ở CP2, AI phản biện rằng metric của tôi chỉ đo tốc độ: nếu AI trích sai thì bảng nhanh hơn nhưng vô dụng. Tôi đồng ý và sửa metric, thêm điều kiện "thông tin trong bảng phải khớp với bài gốc", đồng thời giữ bước sinh viên đối chiếu với bài gốc trong giả thuyết về AI. Tôi cũng ghi rõ các con số thời gian là ước lượng, chưa đo. Đây là phản biện từ AI, không phải từ thành viên nhóm. Với phản biện từ nhóm, báo cáo nhóm ghi các điểm cần làm rõ ở card của tôi (Card #2 dò yêu cầu mất 5 hay 20 phút; Card #3 đo thời gian chuẩn bị hay toàn bộ thời gian ôn), nhưng chưa có nhật ký xác nhận thành viên nào hỏi trực tiếp, nên tôi không dám nhận là mình đã đổi ý vì ai. Điều tôi chắc là: số 5/20 phút chưa được thống nhất, nên tôi không dùng số của mình làm baseline, và nhóm dùng quy trình tham chiếu của Huyền.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+### 6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?
+
+Chưa có phỏng vấn hay poll với người ngoài nhóm trong báo cáo hiện có, nên tôi chưa thể kể kết quả kiểm chứng hay nói có gì làm mình bất ngờ. Theo phân công TEAM.md, tôi phụ trách chính phần research CP4 (bảng so sánh Grammarly AI Grader, lychee-action, GitHub Classroom autograding), còn phần kiểm chứng do Nga và Tâm phụ trách. Điều làm tôi chú ý khi làm research là: công cụ đối chiếu nội dung đã tồn tại, nhưng chưa chứng minh phù hợp với Markdown tiếng Việt — nên nhóm nên thử công cụ có sẵn trước khi tự xây. Còn điều khiến tôi bất ngờ khi đối chiếu số liệu trong nhóm là thời lượng không đồng nhất: mỗi người tính một phạm vi khác nhau, nên không thể lấy trung bình làm baseline chung.
+
+### 6.5. Điều khó nhất khi viết Problem Statement là gì?
+
+Khó nhất với tôi là chọn baseline khi mỗi người tính một phạm vi khác nhau. Số của tôi ở CP1 và sơ đồ CP2 không khớp nhau (30 phút ở CP1, 50 phút trong sơ đồ), và nhóm cuối cùng dùng quy trình tham chiếu của Huyền. Tôi hiểu vì sao phải chọn một quy trình nhất quán để đo, nhưng mốc đó chưa đại diện cho cả nhóm hay người học ngoài nhóm. Khó tiếp theo là metric "số tiêu chí bị sót": đây là điều nhóm muốn giảm về 0, nhưng chưa có phép đo baseline và cần quy định cách đối chiếu để đếm nhất quán. Vì thế tôi xem mục tiêu là điều cần kiểm chứng ở các lần nộp tiếp theo, không phải kết quả đã đạt. Tôi cũng học được rằng boundary phải chỉ ra vị trí trong bài — nếu AI chỉ nói "thiếu mục" mà không chỉ chỗ, người soát vẫn phải dò lại.
+
+### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
+
+Nếu làm lại, tôi sẽ thực hiện phỏng vấn ngoài nhóm sớm hơn, trước khi chốt Problem Statement, để biết ai thực sự gặp pain, phạm vi thời gian nào phù hợp và checklist hiện tại đã đủ đến đâu — thay vì để phần kiểm chứng dồn về cuối. Tôi cũng sẽ phản biện mạnh hơn ở chỗ nhóm chấm cluster A 33 điểm: tiêu chí "pain có bằng chứng" được chấm cao nhưng dữ liệu chủ yếu đến từ bốn thành viên nhóm. Tôi sẽ đề nghị ghi rõ đây là bằng chứng nội bộ và hạ mức chắc chắn cho tới khi có ví dụ từ người ngoài nhóm. Với vai trò nhóm trưởng, tôi cũng muốn giữ nhật ký ai hỏi ai trong buổi pitch CP3 rõ hơn, vì hiện tại báo cáo nhóm ghi câu hỏi CP3 chưa được ghi đầy đủ.
+
+### 6.7. Hiểu bài
+
+Học viên gặp khó khăn khi đối chiếu bài báo cáo Markdown với rubric trước khi nộp vì phải dò nhiều tiêu chí và chỉ phát hiện lỗi hình thức gần deadline; đây là candidate nhóm chọn dựa trên tín hiệu nội bộ. Quy trình tham chiếu có sáu bước từ mở đề, rubric đến nộp, và nhóm xác định bước dò từng yêu cầu trong bài là nút nghẽn. Nhóm muốn đo thời gian đối chiếu giảm và số lỗi thiếu mục giảm về 0, nhưng baseline cho người ngoài nhóm vẫn cần đo. Boundary là AI chỉ được nêu mục nghi thiếu kèm vị trí trong bài để học viên tự kiểm tra; AI không viết bài, không chấm thay coach, không tự nộp. Nhóm chọn Workflow có điều kiện, kèm Rule ở bước kiểm hình thức (tên file, link), và checklist là phương án quay về. Vì chưa có kiểm chứng ngoài nhóm và chưa biết checklist có đủ không, quyết định cuối là Not Yet.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+
