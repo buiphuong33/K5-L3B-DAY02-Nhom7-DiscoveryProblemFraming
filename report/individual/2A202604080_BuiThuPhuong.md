@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Bùi Thu Phương
+- MSSV: 2A202604080
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: Nhóm 7
+- Link repo nhóm: https://github.com/buiphuong33/K5-L3B-DAY02-Nhom7-DiscoveryProblemFraming
 
 ---
 
