@@ -128,9 +128,21 @@ Kết luận research: Rule phù hợp với điều kiện hình thức; công 
 
 ### 4.1. Quy trình hiện tại
 
-    HIỆN TẠI — khoảng 40 phút/lab
-    [1 Mở rubric: 3'] → [2 Đối chiếu từng tiêu chí: 15'] ← BOTTLENECK
-    → [3 Kiểm tên file, ảnh: 5'] → [4 Kiểm link: 5'] → [5 Sửa: 10'] → [6 Push, nộp LMS: 2']
+```mermaid
+flowchart LR
+  S([Đã làm xong nội dung]) --> A["1. Mở RUBRIC + SUBMISSION<br/>3'"]
+  A --> B["2. Đối chiếu từng tiêu chí<br/>15' — BOTTLENECK"]
+  B --> C["3. Kiểm tên file, ảnh<br/>5'"]
+  C --> D["4. Kiểm link<br/>5'"]
+  D --> E["5. Sửa bài<br/>10'"]
+  E --> F["6. Push, nộp LMS<br/>2'"]
+  F --> G([Coach chấm])
+  style B fill:#f8d7da,stroke:#c0392b
+```
+
+Bản ảnh: [cp5-workflow-current.png](../assets/cp5-workflow-current.png)
+
+Tổng khoảng 40 phút/lab, tất cả 6 bước do học viên làm thủ công.
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---|---|---|---|---|---|
@@ -145,12 +157,32 @@ Kết luận research: Rule phù hợp với điều kiện hình thức; công 
 
 ### 4.2. Quy trình tương lai
 
-    TƯƠNG LAI — khoảng 20 phút/lab (kỳ vọng)
-    [1 Kiểm tên file, file bắt buộc, link: 1'] ← RULE (script)
-    → [2 Đối chiếu nội dung với rubric, liệt kê mục nghi thiếu kèm vị trí: 2'] ← AI
-    → [3 Kiểm từng mục AI nêu, tick checklist: 5'] ← CON NGƯỜI
-    → [4 Sửa bài: 10'] ← CON NGƯỜI
-    → [5 Push, nộp LMS: 2'] ← CON NGƯỜI
+```mermaid
+flowchart LR
+  S([Đã làm xong nội dung]) --> R["1. RULE: kiểm tên file,<br/>file bắt buộc, link — 1'"]
+  R -->|Lỗi hình thức| E
+  R -->|Đạt| AI["2. AI: liệt kê mục nghi thiếu<br/>kèm vị trí + tiêu chí — 2'"]
+  AI --> H["3. HỌC VIÊN: kiểm từng mục,<br/>tick checklist — 5'"]
+  H -->|AI sai nhiều / không dùng được| FB["Quay về checklist tick tay<br/>(script vẫn chạy bước 1)"]
+  FB --> E
+  H --> E["4. HỌC VIÊN: sửa bài — 10'"]
+  E --> P["5. HỌC VIÊN: push, nộp LMS — 2'"]
+  style AI fill:#d6eaf8,stroke:#2471a3
+  style H fill:#d5f5e3,stroke:#1e8449
+  style FB fill:#fdebd0,stroke:#ca6f1e
+```
+
+Bản ảnh: [cp5-workflow-future.png](../assets/cp5-workflow-future.png)
+
+Tổng khoảng 20 phút/lab (kỳ vọng, chưa đo).
+
+| Bước | Actor | Input | Output | Thời gian (kỳ vọng) | Kiểm soát |
+|---|---|---|---|---|---|
+| 1 | Rule (script) | Repo, quy tắc đặt tên trong SUBMISSION, link trong báo cáo | Danh sách lỗi tên file, file thiếu, link chết | 1', mỗi lần push | Đúng/sai rõ, không cần AI |
+| 2 | AI | RUBRIC.md, SUBMISSION.md, file báo cáo | Danh sách mục nghi thiếu, mỗi mục kèm vị trí trong bài và tiêu chí rubric | 2', mỗi lab | Chỉ nêu thiếu gì, không viết nội dung |
+| 3 | Học viên | Danh sách của AI, checklist từ rubric | Danh sách mục thật sự thiếu; mục AI báo nhầm được đánh dấu | 5', mỗi lab | Bước con người kiểm tra (HITL) |
+| 4 | Học viên | Danh sách mục thật sự thiếu | Báo cáo đã sửa | 10', phụ thuộc số lỗi | Học viên tự viết |
+| 5 | Học viên | Repo đã sửa | Commit, link trên LMS | 2', mỗi lab | Học viên tự nộp; handoff cho coach |
 
 **Boundary:** AI không viết hoặc sửa nội dung bài, không chấm điểm thay coach, không tự commit hay nộp, không xác nhận "đạt" nếu không chỉ ra được vị trí trong bài.
 

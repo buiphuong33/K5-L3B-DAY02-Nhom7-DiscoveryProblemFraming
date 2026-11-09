@@ -42,22 +42,30 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Phần việc phụ trách:**
 
 - CP5 — vẽ quy trình hiện tại và quy trình tương lai, bảng before/after.
+- Làm rõ actor, input/output, thời gian, boundary và phương án quay về; cung cấp Problem Cards và số liệu cá nhân để nhóm đối chiếu baseline.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Pitch Problem Card #1 "Kiểm tra bài lab trước khi nộp". Card này là nguồn của candidate A mà nhóm chọn.
 - Cung cấp quy trình tham chiếu 6 bước, ~40 phút, có bottleneck ở bước đối chiếu tiêu chí (~15 phút). Nhóm dùng quy trình này cho mục 4.1 và cho baseline của Problem Statement.
 - Vẽ quy trình tương lai 5 bước (Rule → AI → con người), có boundary, phương án quay về và bảng before/after.
+- Chuyển sơ đồ quy trình hiện tại và tương lai sang Mermaid, bổ sung bảng actor/input/output/thời gian cho cả hai quy trình.
+- Thể hiện target nhóm ~20 phút theo tổng thời gian các bước, so với mục tiêu ≤15 phút trong Card #1; giữ thời gian học viên kiểm lại và 10 phút sửa bài. Các mốc tương lai là kỳ vọng cần kiểm chứng.
+- Làm rõ ranh giới Rule kiểm hình thức, AI đối chiếu nội dung, học viên kiểm lại/sửa/nộp trong sơ đồ; giữ checklist làm phương án quay về.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `report/team/group_report.md` mục 2.1 (candidate #1–#3), mục 4.1–4.3.
-- `report/individual/2A202604077_DuongThiHuyen.md` mục 3, Problem Card #1.
-- Commit `1ff1cb8` (báo cáo cá nhân).
+- [Báo cáo nhóm](report/team/group_report.md): mục 2.1 (candidate #1–#3), mục 3.2 (số liệu cá nhân), mục 4.1–4.3 (quy trình và before/after); mục 5, 7 và 8.2 sử dụng quy trình tham chiếu và target nhóm.
+- Ảnh quy trình: [cp5-workflow-current.png](report/assets/cp5-workflow-current.png), [cp5-workflow-future.png](report/assets/cp5-workflow-future.png).
+- [Báo cáo cá nhân](report/individual/2A202604077_DuongThiHuyen.md): mục 3 (Problem Card #1 và phản biện CP2), mục 4 (đóng góp), mục 6 (bài học).
+- Commit `1ff1cb8` (báo cáo cá nhân), `9c250d3` (cập nhật group_report.md và TEAM.md).
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Cùng gặp một pain chưa có nghĩa các số liệu so sánh được: mốc ~40 phút của mình chỉ là quy trình tham chiếu, cần thống nhất phạm vi đo trước khi suy rộng.
+- Vẽ quy trình giúp kiểm tra target: tổng các bước tương lai là ~20 phút, vẫn dành thời gian kiểm lại và sửa bài; giảm số bước chưa chứng minh hiệu quả thực tế.
+- Chọn mức can thiệp theo từng bước: thử checklist/Rule trước, chỉ dùng Workflow khi có bằng chứng cần AI đối chiếu nội dung.
+- Not Yet phù hợp khi còn thiếu kiểm chứng ngoài nhóm; cần ghi rõ giả định, cách thử và ngưỡng dừng thay vì coi kỳ vọng là kết quả.
 
 ### BuiThuPhuong-2A202604080
 

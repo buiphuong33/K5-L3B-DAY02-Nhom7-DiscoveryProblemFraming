@@ -140,17 +140,17 @@ Phản biện từ Claude:
 
 ## 4. Tôi đã tham gia phần nào (CP3–CP6)
 
-**Trạng thái:** Chờ bổ sung nhật ký hoạt động nhóm. Mục này ghi đóng góp cá nhân và ảnh hưởng tới bài chung; phân tích chi tiết CP3–CP6 trình bày tại [báo cáo nhóm](../team/group_report.md), bằng chứng phân công và đóng góp ghi tại [TEAM.md](../../TEAM.md).
+Mục này ghi đóng góp cá nhân và ảnh hưởng tới bài chung; phân tích chi tiết CP3–CP6 trình bày tại [báo cáo nhóm](../team/group_report.md), phân công và bằng chứng ghi tại [TEAM.md](../../TEAM.md).
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Chờ ghi nhận card đã trình bày | Chờ bổ sung kết quả thảo luận |
-| Phản biện bài của bạn khác | Chờ ghi câu hỏi đã đặt và người nhận câu hỏi | Chờ bổ sung thay đổi sau trao đổi |
-| Nhận phản biện | Chờ ghi câu hỏi đã nhận và người đặt câu hỏi | Chờ bổ sung điều chỉnh cụ thể của tôi |
-| Gom cluster / cây OST / chọn candidate | Chờ ghi nhận phần việc thực tế | Chờ dẫn phần tương ứng trong báo cáo nhóm |
-| Kiểm chứng / research | Chờ ghi nhận phần việc thực tế | Chờ dẫn kết quả hoặc tài liệu bằng chứng |
-| Quy trình / Problem Statement | Chờ ghi nhận phần việc thực tế | Chờ dẫn phần nội dung đã đóng góp |
-| Mức can thiệp / quyết định | Chờ ghi nhận ý kiến đã đóng góp | Chờ bổ sung ảnh hưởng tới kết luận chung |
+| Pitch Problem Card | Pitch top 3 card (#1 kiểm tra bài lab trước khi nộp, #2 tìm lại câu trả lời cũ của coach, #3 theo dõi việc nhóm đã chốt), ưu tiên Card #1 | Card #1 trở thành candidate #1 và được gom vào cluster A cùng candidate #4 (Nga) và #8 (Phương). Nhóm chọn cluster A với 33 điểm (mục 2.4 báo cáo nhóm). Card #2 vào cluster B, Card #3 vào cluster C và bị loại vì bảng phân công hoặc tin nhắn ghim đã đủ |
+| Phản biện bài của bạn khác | Câu hỏi tôi chuẩn bị là pain có phổ biến ngoài cá nhân không và checklist tick tay có đủ giải quyết không. Chưa có ghi chép xác nhận tôi đã hỏi trực tiếp thành viên nào. | Hai điểm này được giữ trong giả định cần kiểm chứng và phương án so sánh No AI; chưa xác định thay đổi của thành viên khác sau câu hỏi của tôi. |
+| Nhận phản biện | Ở CP2, Claude chỉ ra baseline Card #1 mới phản ánh một người và mức trừ điểm phụ thuộc rubric từng lab. Chưa có nhật ký phản biện trực tiếp từ thành viên nhóm. | Tôi làm rõ phạm vi đo ~40 phút và bổ sung số tiêu chí bị sót. Đây là điều chỉnh từ phản biện AI ở CP2, không phải bằng chứng hỏi–đáp CP3. |
+| Gom cluster / cây OST / chọn candidate | Góp quy trình tham chiếu của Card #1 để nhóm so sánh các candidate trong cluster A | Quy trình 6 bước, bottleneck ở bước đối chiếu tiêu chí (~15'), được dùng cho Opportunity A–C trong cây OST (mục 2.3) |
+| Kiểm chứng / research | Không phụ trách chính (Nga, Tâm phụ trách kiểm chứng; Phương phụ trách research). Cung cấp số liệu Card #1 để đối chiếu với số của các thành viên khác (mục 3.2) | Nhóm ghi rõ mốc 40' là quy trình tham chiếu của tôi, không phải trung bình 4 người |
+| Quy trình / Problem Statement | Phụ trách CP5: vẽ quy trình hiện tại (6 bước, ~40'), quy trình tương lai (5 bước, ~20' kỳ vọng) bằng sơ đồ Mermaid, bảng actor/input/output/thời gian cho cả hai quy trình, boundary, phương án quay về và bảng before/after | Mục 4.1–4.3 báo cáo nhóm; quy trình và baseline 40' được dùng cho trường Quy trình, Bottleneck, Impact của Problem Statement v0/v1 |
+| Mức can thiệp / quyết định | Thể hiện trong sơ đồ tương lai phần Rule kiểm hình thức, AI đối chiếu nội dung và học viên kiểm lại, sửa, nộp; giữ checklist làm phương án quay về | Làm rõ điểm can thiệp và trách nhiệm từng actor trong thiết kế nhóm. Workflow là hướng thử có điều kiện; quyết định hiện tại là Not Yet vì còn thiếu kiểm chứng. |
 
 ---
 
@@ -160,41 +160,39 @@ Phản biện từ Claude:
 |---|---|---|---|
 | CP1 — Scan problem | Claude gợi mở thêm vấn đề có thể đã trải qua nhưng chưa nghĩ tới; hỗ trợ diễn đạt Job Story tách bạch, tránh trùng ý | Có gợi ý quá rộng, thiên về giải pháp như “trợ lý trả lời mọi câu hỏi về khóa học” | Tôi khoanh vùng và liệt kê vấn đề từ trải nghiệm, đối chiếu các gợi ý, bỏ ý quá rộng; tự định lượng thời gian, tần suất |
 | CP2 — Problem Cards | Claude hỗ trợ cấu trúc card và phản biện baseline, metric, phương án giải quyết | Không xác nhận được thời gian thực tế hoặc mức độ phổ biến của vấn đề | Tôi chọn top 3, giới hạn baseline ở trải nghiệm cá nhân, điều chỉnh metric Card #1 và cân nhắc No AI ở Card #2–3 |
-| Rà soát báo cáo | Codex hỗ trợ rà soát, đối chiếu với bài mẫu và framework trong docs, điều chỉnh cách trình bày | Cần đối chiếu lại với tài liệu gốc | Tôi xác nhận số liệu và yêu cầu chỉnh bố cục theo mẫu |
 
 ---
 
 ## 6. Reflection (CP7)
 
-**Trạng thái:** Chờ bổ sung trải nghiệm cá nhân sau khi đối chiếu kết quả hoạt động nhóm. Phần trả lời 6.1–6.6 cần tổng cộng ít nhất 200 từ; mục 6.7 viết riêng 5–8 câu.
 
 ### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-*Chờ bổ sung trải nghiệm cá nhân.*
+Qua đối chiếu top 3 của các bạn, tôi thấy nhiều vấn đề có chung nhu cầu nhưng khác bối cảnh. Card kiểm tra bài của tôi gần với việc đọc yêu cầu của Nga và đối chiếu bài trước khi nộp của Phương. Tuy nhiên, các mốc thời gian không thể cộng rồi lấy trung bình vì mỗi người tính một phạm vi khác nhau. Tôi học được rằng khi gom problem, cần làm rõ actor, điểm bắt đầu và điểm kết thúc quy trình trước khi dùng số liệu để chọn bài toán.
 
 ### 6.2. Nhóm có lúc nào nghĩ giải pháp trước khi hiểu vấn đề không? Nhóm nhận ra và xử lý thế nào?
 
-*Chờ bổ sung tình huống thực tế của nhóm.*
+Trong cây OST, nhóm đã gạch “chatbot kiểm tra rubric” và “script tự kiểm tên file” vì đây là giải pháp, chưa phải opportunity. Qua phần này, tôi hiểu rằng cần mô tả khó khăn như dễ sót điều kiện phụ hoặc phải dò từng yêu cầu trong báo cáo dài trước. Với phần quy trình tôi phụ trách, bài học là xác định bước nghẽn rồi mới đặt công cụ vào đúng bước, đồng thời giữ checklist để so sánh.
 
 ### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-*Chờ bổ sung ý kiến ban đầu, phản biện nhận được và điều chỉnh sau đó.*
+Có, ở CP2, Claude phản biện rằng mốc khoảng 40 phút mới phản ánh trải nghiệm của một người. Tôi điều chỉnh cách trình bày: giữ số gần đúng của mình nhưng ghi rõ phạm vi từ mở rubric đến nộp link LMS, không coi đó là baseline chung của cả lớp. Tôi cũng bổ sung cách đo số tiêu chí bị sót thay vì chỉ dựa vào điểm bị trừ. Lần điều chỉnh này giúp tôi phân biệt dấu hiệu đáng tìm hiểu với bằng chứng đủ để kết luận vấn đề phổ biến. Đây là phản biện từ AI, chưa phải tình huống phản biện trực tiếp giữa các thành viên.
 
 ### 6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?
 
-*Chờ bổ sung nhận xét từ kết quả phỏng vấn, survey hoặc research của nhóm.*
+Nhóm chưa có kết quả phỏng vấn hoặc survey ngoài nhóm nên tôi chưa thể nêu một phát hiện từ người được hỏi. Điều đáng chú ý khi đối chiếu nội bộ là dù nhiều bạn cùng gặp khó ở việc soát bài, các con số vẫn chưa đủ để xác lập baseline chung. Mốc 70 phút của Nga có cả đọc đề từ đầu, còn 40 phút của tôi tính giai đoạn kiểm tra, sửa và nộp. Tôi học được rằng sự đồng thuận trong nhóm vẫn cần được kiểm tra bằng quan sát và cách đo thống nhất.
 
 ### 6.5. Điều khó nhất khi viết Problem Statement là gì?
 
-*Chờ bổ sung khó khăn thực tế và cách xử lý.*
+Từ phần quy trình tôi phụ trách, khó nhất là nối bottleneck với metric mà không hứa một mức cải thiện thiếu cơ sở. Card cá nhân đặt mục tiêu 15 phút, nhưng khi tách quy trình tương lai, riêng sửa bài vẫn cần khoảng 10 phút và còn thời gian kiểm lại, nộp bài. Vì vậy, target nhóm là 20 phút phù hợp với tổng các bước hơn. Tôi học được rằng sơ đồ phải giải thích được con số trong Problem Statement; thời gian kỳ vọng vẫn cần đo thử và phải đi cùng yêu cầu không bỏ sót.
 
 ### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
 
-*Chờ bổ sung điều muốn thay đổi từ trải nghiệm cá nhân.*
+Tôi sẽ ghi giờ từng bước ngay từ đầu, tách thời gian kiểm tra, sửa bài và chờ phản hồi, đồng thời ghi lại câu hỏi và thay đổi sau mỗi lượt phản biện. Tôi muốn kiểm tra sớm hơn giả định checklist chưa đủ bằng một lần thử có dữ liệu. Khi bàn về Workflow, tôi sẽ hỏi rõ phần nào thực sự cần đọc hiểu và lợi ích có còn sau khi tính thời gian học viên kiểm lại hay không. Quyết định Not Yet nhắc tôi cần biết mình thiếu bằng chứng gì và kiểm chứng thế nào trước khi triển khai.
 
 ### 6.7. Hiểu bài: giải thích chuỗi lập luận của bài nhóm
 
-*Chờ viết 5–8 câu về problem → quy trình → metric → boundary → mức can thiệp → quyết định, dựa trên bài toán nhóm đã chọn. Card ưu tiên của cá nhân ở mục 3 chưa phải kết luận lựa chọn của nhóm.*
+Bài toán nhóm chọn là học viên AI20k mất thời gian và dễ sót yêu cầu khi đối chiếu báo cáo với rubric trước khi nộp. Quy trình tham chiếu của tôi có 6 bước, tổng khoảng 40 phút, trong đó đối chiếu từng tiêu chí mất khoảng 15 phút và là bottleneck. Nhóm đặt mục tiêu toàn quy trình còn tối đa 20 phút, không sót tiêu chí và dưới 30% mục AI nêu là báo nhầm; đây đều là mục tiêu chưa được thử nghiệm. Boundary của thiết kế là công cụ chỉ chỉ ra chỗ nghi thiếu, còn học viên kiểm lại, sửa và tự nộp, AI không viết bài hay chấm điểm thay coach. Nhóm thử checklist và Rule trước, chỉ cân nhắc Workflow cho phần đối chiếu nội dung nếu các cách đơn giản chưa đủ. Agent chưa cần thiết vì các bước đã xác định và không cần AI tự quyết hành động tiếp theo. Quyết định hiện tại là Not Yet, chờ kiểm chứng ngoài nhóm, so sánh với checklist/Rule và đánh giá chất lượng trên báo cáo có thiếu sót tham chiếu.
 
 ---
 
