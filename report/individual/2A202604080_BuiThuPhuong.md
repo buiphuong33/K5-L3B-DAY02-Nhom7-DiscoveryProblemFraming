@@ -144,12 +144,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
+| CP1 Scan | Gợi ý thêm vấn đề theo các lăng kính | Giúp nghĩ thêm góc "pain từ người khác" | Gợi ý chung chung, không có số liệu thật của tôi | Chỉ giữ việc tôi đã gặp, tự ghi tần suất và thời gian |
 | CP2 Problem Card | Nhờ AI phản biện 3 Problem Card về baseline, metric và phương án không dùng AI. | Chỉ ra baseline Card 1 chưa có số đo thật, metric chỉ đo tốc độ, checklist có thể đã đủ cho Card 2, và "trọng tâm" ở Card 3 khó kiểm chứng. | AI chỉ nêu được rằng baseline chưa đo, không thay được việc đo thật; các số trong card vẫn là ước lượng. | Ghi rõ số là ước lượng; thêm điều kiện thông tin trong bảng phải khớp bài gốc; để Card 2 là "No AI hoặc Workflow"; xếp Card 3 hạng 3 và để "Chưa biết". |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Tìm công cụ đã có cho bước đối chiếu rubric và kiểm link | Gợi ý nhanh Grammarly AI Grader, lychee-action, GitHub Classroom autograding | Mô tả công cụ chưa nêu đủ giới hạn | Mở từng trang nguồn; ghi rõ Grammarly mô tả bài tiếng Anh, Classroom có thông báo ngừng từ 28/08/2026 |
+| CP5 Quy trình | Rà quy trình trước/sau để tìm bước thiếu | Nhắc tách phần kiểm hình thức (Rule) khỏi đối chiếu nội dung | Số phút tương lai chỉ là ước đoán | Ghi các mốc tương lai là kỳ vọng, chưa đo |
+| CP5–6 Problem Statement | Rà success metric và boundary | Nhắc rằng nhanh hơn mà báo sai nhiều thì vô ích | Không biết actor thực tế là ai, vì chưa có dữ liệu ngoài nhóm | Thêm tỉ lệ báo nhầm vào metric; ghi rõ chưa xác nhận quy mô actor |
+| CP6 Mức can thiệp / quyết định | So sánh 4 mức No AI, Rule, Workflow, Agent | Chỉ ra rủi ro của Agent khi có quyền ghi vào repo | Dễ nghiêng về Workflow khi chưa có bằng chứng checklist không đủ | Giữ checklist là phương án thử trước, chốt Not Yet |
 
 ---
 
