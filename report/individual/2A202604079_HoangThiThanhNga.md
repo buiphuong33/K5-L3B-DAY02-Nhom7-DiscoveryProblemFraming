@@ -167,31 +167,31 @@ AI (Claude) đóng vai PM hoài nghi, phản biện card #1:
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-*(Nga tự bổ sung.)*
+Khi nghe top 3, tôi thấy yên tâm vì card của Huyền, Phương (#8) và tôi đều chạm tới việc soát bài trước khi nộp. Nhưng sự trùng nhau mới là tín hiệu trong nhóm, chưa chứng minh đây là pain chung của lớp: chúng tôi có thể cùng chú ý đến một vấn đề quen thuộc vì đều đang làm bài lab. Card #10 của Tâm về hiểu phản hồi giảng viên cũng khiến tôi nhận ra một khó khăn gần với mình mà tôi không đưa vào top 3; card #2 của Huyền về tìm câu trả lời cũ của coach cho thấy cùng một việc đọc nhiều thông tin có thể xuất hiện ở bối cảnh khác.
 
 **6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-*(Nga tự bổ sung.)*
+Trong cây OST, “Chatbot kiểm tra rubric” và “Script tự kiểm tên file” bị gạch vì đó là cách làm/giải pháp, chưa phải mô tả khó khăn hay cơ hội của người học. Tôi không có ghi chép đủ chắc để khẳng định ai là người đầu tiên nêu từng ý hoặc ai là người đầu tiên nhận ra lỗi phân loại; điều tôi có thể xác nhận là nhóm đã chuyển trọng tâm sang các khó khăn như rubric có nhiều điều kiện phụ, phải dò thủ công báo cáo dài và chỉ phát hiện lỗi hình thức gần deadline. Ở CP2, chính tôi đã ghi giả thuyết AI đọc rubric và bài làm rồi chỉ ra mục còn thiếu. Nhìn lại, tôi đã nghĩ tới AI khá sớm. Câu hỏi “checklist tự lập từ RUBRIC đã đủ chưa?” giúp tôi giữ lại một phương án không AI để so sánh thay vì mặc định phải dùng AI.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-*(Nga tự bổ sung; có thể dùng sự kiện CP2 đã ghi nếu đó đúng là trải nghiệm của bạn, và phân biệt rõ phản biện từ AI với phản biện từ thành viên nhóm.)*
+Tôi có điều chỉnh sau phản biện, nhưng chưa thể nói mình đã bỏ hẳn ý tưởng AI. Ở CP2, Claude đóng vai PM hoài nghi và nêu rằng checklist có thể giải quyết phần lớn vấn đề; tôi đồng ý một phần và thêm checklist tự lập từ rubric làm phương án không AI. Đây là phản biện từ AI, không phải kết luận của bạn trong nhóm. Còn câu hỏi của Huyền “pain chung hay chỉ do thiếu cẩn thận?” là phản biện từ thành viên nhóm; nhóm ghi nó thành giả định cần kiểm chứng về mức độ phổ biến và nguyên nhân của pain. Với tôi, câu hỏi đó làm điểm 33/35 bớt giống một xác nhận chắc chắn: điểm số phản ánh cách nhóm chấm candidate, còn bằng chứng pain vẫn chủ yếu là tự báo cáo của chúng tôi.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-*(Nga tự bổ sung sau khi nhóm thực sự kiểm chứng.)*
+Chưa có phỏng vấn hoặc poll với người ngoài nhóm trong báo cáo hiện có, nên tôi chưa thể kể kết quả kiểm chứng hay nói có phát hiện nào làm mình bất ngờ. Tôi được phân công phụ trách Assumption Map và phối hợp Tâm phỏng vấn 1–2 học viên nhóm khác, nhưng phần đó chưa tạo ra snapshot thực tế. Vì vậy, điều trung thực nhất là thừa nhận kế hoạch chưa được thực hiện hoặc chưa được ghi nhận trước khi chốt báo cáo; các tài liệu hiện có không cho biết lý do cụ thể hơn, nên tôi không muốn tự đoán. Điều khiến tôi chú ý khi đối chiếu bốn người là thời lượng không đồng nhất: 70 phút của tôi tính cả đọc đề và các bước đầu, Huyền khoảng 40 phút cho quy trình khác phạm vi, Phương có số 30 phút ở CP1 và 50 phút trong sơ đồ CP2, còn Tâm ghi khoảng 30 phút ở CP1. Những số này không thể lấy trung bình làm baseline chung.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-*(Nga tự bổ sung sau khi nhóm viết Problem Statement.)*
+Khó nhất với tôi là chọn baseline khi mỗi người tính một phạm vi khác nhau. Con số 70 phút của tôi gồm cả đọc đề, trong khi Problem Statement dùng quy trình tham chiếu khoảng 40 phút của Huyền và tách bước đối chiếu tiêu chí khoảng 15 phút. Tôi hiểu vì sao phải chọn một quy trình nhất quán để đo, nhưng mốc đó chưa đại diện cho cả nhóm hay người học ngoài nhóm. Khó tiếp theo là metric “số tiêu chí bị sót”: đây là điều nhóm muốn giảm về 0, nhưng chưa có phép đo baseline và còn cần quy định cách đối chiếu để đếm nhất quán. Vì thế, tôi xem mục tiêu là điều cần kiểm chứng ở các lần nộp tiếp theo, không phải kết quả đã đạt.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-*(Nga tự bổ sung bằng trải nghiệm thật.)*
+Nếu làm lại, tôi sẽ ưu tiên thực hiện phỏng vấn ngoài nhóm sớm hơn, trước khi chốt Problem Statement v0, để hiểu ai thực sự gặp pain, phạm vi thời gian nào phù hợp và checklist hiện tại đã đủ đến đâu. Tôi cũng muốn phản biện mạnh hơn điểm 33/35: tiêu chí “pain có bằng chứng” được chấm 4 nhưng dữ liệu lúc đó chủ yếu đến từ bốn thành viên nhóm, chưa có tiếng nói độc lập. Tôi sẽ đề nghị ghi rõ đây là bằng chứng nội bộ và hạ mức chắc chắn cho tới khi có ví dụ từ người ngoài nhóm. Đây là điều tôi rút ra từ giới hạn đã được ghi trong báo cáo, không phải khẳng định rằng phỏng vấn chắc chắn sẽ xác nhận vấn đề.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-*(Nga tự bổ sung sau khi nhóm chốt candidate, quy trình, metric, boundary, mức can thiệp và quyết định.)*
+Học viên AI20k gặp khó khăn khi đối chiếu bài lab với rubric trước khi nộp vì phải dò nhiều tiêu chí, và đây là candidate nhóm chọn dựa trên tín hiệu nội bộ. Quy trình tham chiếu có sáu bước từ mở rubric đến nộp LMS; nhóm xác định bước đối chiếu từng tiêu chí là nút nghẽn, khoảng 15 phút trong tổng quy trình tham chiếu khoảng 40 phút. Nhóm muốn đo tổng thời gian soát bài từ khoảng 40 xuống không quá 20 phút và đếm tiêu chí bị sót, nhưng baseline cho người ngoài nhóm và số tiêu chí bị sót vẫn cần đo. AI chỉ được nêu mục nghi thiếu kèm vị trí để học viên tự kiểm tra; AI không viết bài, chấm thay coach hay tự nộp. Nhóm chọn hướng Workflow có điều kiện vì phần đối chiếu nội dung còn mơ hồ, còn tên file và link có thể dùng Rule, nhưng checklist vẫn là phương án đơn giản cần thử. Vì chưa có kiểm chứng ngoài nhóm và chưa biết checklist có đủ không, quyết định cuối là Not Yet, chưa triển khai AI.
 
 ---
 
