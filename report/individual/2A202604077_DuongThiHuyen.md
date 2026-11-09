@@ -160,7 +160,7 @@ Phản biện từ Claude:
 |---|---|---|---|
 | CP1 — Scan problem | Claude gợi mở thêm vấn đề có thể đã trải qua nhưng chưa nghĩ tới; hỗ trợ diễn đạt Job Story tách bạch, tránh trùng ý | Có gợi ý quá rộng, thiên về giải pháp như “trợ lý trả lời mọi câu hỏi về khóa học” | Tôi khoanh vùng và liệt kê vấn đề từ trải nghiệm, đối chiếu các gợi ý, bỏ ý quá rộng; tự định lượng thời gian, tần suất |
 | CP2 — Problem Cards | Claude hỗ trợ cấu trúc card và phản biện baseline, metric, phương án giải quyết | Không xác nhận được thời gian thực tế hoặc mức độ phổ biến của vấn đề | Tôi chọn top 3, giới hạn baseline ở trải nghiệm cá nhân, điều chỉnh metric Card #1 và cân nhắc No AI ở Card #2–3 |
-| Rà soát báo cáo | Codex đối chiếu rubric, kiểm tra phép tính, biên tập nội dung và định dạng Markdown | Bản biên tập ban đầu rút gọn mục 4 và 6 quá mức, chưa giữ đủ cấu trúc cần bổ sung theo template | Tôi yêu cầu rà lại bài mẫu; bản sửa khôi phục bảng đóng góp và các câu reflection, rút nội dung trùng lặp; giữ phần nhóm chờ dữ liệu thực tế |
+| Rà soát báo cáo | Codex hỗ trợ rà soát, đối chiếu với bài mẫu và framework trong docs, điều chỉnh cách trình bày | Cần đối chiếu lại với tài liệu gốc | Tôi xác nhận số liệu và yêu cầu chỉnh bố cục theo mẫu |
 
 ---
 
