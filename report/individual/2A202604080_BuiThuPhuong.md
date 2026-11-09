@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202604080_BuiThuPhuong
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -116,11 +116,11 @@ Quy trình nháp hiện tại:
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Card 1: baseline chưa có số đo thật | | |
-| Card 1: metric chỉ đo tốc độ; AI trích sai thì bảng nhanh hơn nhưng vô dụng | | |
-| Card 2: checklist có thể đã giải quyết phần lớn, AI có thể là thừa | | |
-| Card 3: "trọng tâm" do giảng viên quyết định, khó kiểm chứng trước kỳ thi | | |
-| Card 3: chỉ xảy ra theo mùa thi, tần suất thấp | | |
+| Card 1: baseline chưa có số đo thật | Đồng ý | Ghi rõ các số là "ước lượng, chưa đo"; success metric đo bằng tự bấm giờ |
+| Card 1: metric chỉ đo tốc độ; AI trích sai thì bảng nhanh hơn nhưng vô dụng | Đồng ý | Thêm điều kiện vào metric: thông tin trong bảng phải khớp với bài gốc; giả thuyết về AI giữ bước sinh viên đối chiếu với bài gốc |
+| Card 2: checklist có thể đã giải quyết phần lớn, AI có thể là thừa | Đồng ý | Ghi checklist theo rubric làm phương án không dùng AI; để cảm nhận nhanh là "No AI hoặc Workflow" thay vì mặc định dùng AI |
+| Card 3: "trọng tâm" do giảng viên quyết định, khó kiểm chứng trước kỳ thi | Đồng ý | Đưa vào "Điều còn chưa chắc"; bỏ chỉ số tỉ lệ đúng khi làm đề thử, success metric chỉ đo thời gian chuẩn bị trước khi ôn; để cảm nhận nhanh là "Chưa biết" |
+| Card 3: chỉ xảy ra theo mùa thi, tần suất thấp | Đồng ý | Xếp card này hạng 3 và ghi hạn chế vào bảng chọn top 3 |
 
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
