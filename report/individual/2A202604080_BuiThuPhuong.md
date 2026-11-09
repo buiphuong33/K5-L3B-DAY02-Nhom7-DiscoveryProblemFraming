@@ -127,16 +127,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Đưa top 3 của tôi vào danh sách pitch: so sánh phương pháp nhiều bài báo (candidate #7), đối chiếu bài với đề và rubric (#8), xác định trọng tâm khi ôn thi (#9). Card tôi muốn pitch nhất là so sánh bài báo, kèm câu hỏi: mẫu bảng cố định, không dùng AI, đã đủ chưa? | #8 được gom vào cluster A cùng #1 (Huyền) và #4 (Nga); nhóm chọn cluster A với 33 điểm. #7 và #9 vào cluster B (26 điểm) và bị loại. Card tôi ưu tiên không phải card được chọn. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Báo cáo nhóm chưa có ghi chép ai đã hỏi ai trong buổi pitch (mục 2.1), nên tôi chưa ghi câu hỏi cụ thể ở đây. | Chưa xác định được ảnh hưởng tới candidate của bạn khác. |
+| Nhận phản biện | Câu hỏi tôi nhận được: Theo mục 2.1 báo cáo nhóm: thời gian dò yêu cầu ở Card #2 là 5 hay 20 phút? Ở card ôn thi, đo thời gian chuẩn bị hay toàn bộ thời gian ôn? | Tôi đã sửa gì: Chưa sửa số trong Card #2. Nhóm ghi ở mục 9 rằng tôi cần thống nhất số phút và số lỗi trước khi dùng làm dữ liệu định lượng, và không lấy số của tôi làm baseline chung. |
+| Gom cluster / cây OST | Viết bản nháp 4 cluster (A–D) và cây OST gồm 1 outcome, 3 opportunity trong `group_report.md` (commit `6bf2a7b`). | Mục 2.2–2.3 của báo cáo nhóm giữ cấu trúc này. |
+| Chọn candidate problem | Viết bản nháp phần chọn candidate A (đối chiếu bài lab với rubric trước khi nộp) trong commit `6bf2a7b`. | Nhóm chốt candidate A ở mục 2.4. Điểm "pain có bằng chứng" dựa trên ghi nhận của thành viên, chưa có bằng chứng từ người ngoài nhóm. |
+| Kiểm chứng / research | Phụ trách chính phần research (TEAM.md): lập bảng 3 giải pháp đã có là Grammarly AI Grader, lychee-action và GitHub Classroom autograding, có link. Phần kiểm chứng do Nga và Tâm phụ trách. | Mục 3.3: điều kiện hình thức giải được bằng Rule; công cụ đối chiếu nội dung đã tồn tại nhưng chưa chứng minh phù hợp với Markdown tiếng Việt, nên thử công cụ có sẵn trước khi xây. |
+| Quy trình nhóm | Không phụ trách chính (Huyền phụ trách CP5). Số liệu của tôi (30 phút đối chiếu) được đưa vào phần đối chiếu nội bộ ở mục 3.2. | Nhóm dùng quy trình tham chiếu ~40 phút của Huyền, không lấy trung bình số của các thành viên vì phạm vi đo khác nhau. |
+| Problem Statement | Được phân công hỗ trợ Nga viết Problem Statement v0 (TEAM.md); commit `6bf2a7b` có bản nháp các trường v0 và v1, gồm success metric và boundary. | Mục 5 và 7 báo cáo nhóm. Bản v1 thêm tỉ lệ báo nhầm vào metric và thu hẹp actor. |
+| Mức can thiệp AI | Viết bản nháp so sánh 4 mức và chọn tạm Workflow (có Rule ở bước 1) trong commit `6bf2a7b`. | Bản cuối ở mục 6.2 chọn Workflow có điều kiện: chỉ triển khai khi kiểm chứng cho thấy checklist/Rule không đủ; không dùng Agent. |
+| Quyết định | Ghi đề xuất Not Yet trong bản nháp, chờ kết quả kiểm chứng ở mục 3.2. | Nhóm chốt Not Yet ở mục 8.2, vì rủi ro Value còn Cao và chưa so sánh với checklist. |
 
 ---
 
@@ -145,7 +145,7 @@ Quy trình nháp hiện tại:
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
+| CP2 Problem Card | Nhờ AI phản biện 3 Problem Card về baseline, metric và phương án không dùng AI. | Chỉ ra baseline Card 1 chưa có số đo thật, metric chỉ đo tốc độ, checklist có thể đã đủ cho Card 2, và "trọng tâm" ở Card 3 khó kiểm chứng. | AI chỉ nêu được rằng baseline chưa đo, không thay được việc đo thật; các số trong card vẫn là ước lượng. | Ghi rõ số là ước lượng; thêm điều kiện thông tin trong bảng phải khớp bài gốc; để Card 2 là "No AI hoặc Workflow"; xếp Card 3 hạng 3 và để "Chưa biết". |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
