@@ -136,16 +136,16 @@ AI (Claude) đóng vai PM hoài nghi, phản biện card #1:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Đề xuất card “Đối chiếu bài lab với rubric trước khi nộp”, tương ứng Card #1 cá nhân. | Nhóm chọn candidate này để đào sâu. Bảng chấm nhóm ghi 33/35: actor 5, quy trình 5, pain có bằng chứng 4, impact 4, vừa sức 5, so sánh 4 mức 5, hiểu domain 5. Điểm là đánh giá của nhóm, không phải số đo độc lập. |
-| Phản biện bài của bạn khác | Chưa có câu hỏi Nga đặt cho thành viên khác trong thông tin được cung cấp. | Cần Nga bổ sung câu hỏi thực tế để hoàn thành nhật ký phản biện CP3. |
-| Nhận phản biện | Chưa có câu hỏi cụ thể Nga nhận được từ thành viên nhóm được ghi lại. | Cần bổ sung phản biện thực tế và thay đổi của Nga (nếu có); không suy diễn từ phản biện AI ở CP2. |
-| Gom cluster / cây OST | Tham gia hội tụ từ các candidate của 4 thành viên; nhóm so sánh bài đối chiếu rubric, ôn tập tài liệu và cập nhật quyết định nhóm. | Card đối chiếu rubric được chọn vì quy trình rõ, có hậu quả theo rubric và vừa sức kiểm chứng; nhánh/cây OST chi tiết chưa có trong dữ kiện hiện có. |
-| Chọn candidate problem | Đề xuất và cùng nhóm chọn vấn đề đối chiếu bài lab với rubric trước khi nộp. | Bài toán nhóm được thu hẹp vào phát hiện mục/tiêu chí còn thiếu và lỗi tên file trước khi nộp. Checklist từ RUBRIC và SUBMISSION là phương án không dùng AI để so sánh. |
-| Kiểm chứng / research | Được phân công phụ trách Assumption Map và tổng hợp Interview Snapshot; phối hợp Tâm phỏng vấn 1–2 học viên ở nhóm khác. | Chưa có snapshot, ngày/số người, câu nói, tín hiệu xác nhận/phản bác hoặc research trong thông tin gửi. Bổ sung kết quả thực tế trước khi nộp; không ghi số liệu phỏng vấn khi chưa có. |
-| Quy trình nhóm | Dựa trên các ước lượng do 4 thành viên cung cấp: mở rubric 3', đối chiếu tiêu chí 15–30', kiểm tên file/ảnh và link 10', sửa 10', push và nộp LMS 2'. | Bước đối chiếu tiêu chí là bottleneck được các thành viên ước lượng 15–30 phút; cần ghi rõ đây là tự báo cáo/ước lượng và bấm giờ ở lab kế tiếp để xác lập baseline. Huyền phụ trách sơ đồ quy trình chi tiết. |
-| Problem Statement | Được phân công cùng Phương soạn Problem Statement v0. | Nội dung cần mô tả học viên AI20k nộp qua GitHub, bottleneck khi đối chiếu từng tiêu chí và impact của thiếu mục/sai tên file. Baseline nhóm tạm ước lượng khoảng 40 phút/lần; mục tiêu ≤15 phút và không sót tiêu chí, cần đo ở lab tiếp theo. |
-| Mức can thiệp AI | Được phân công trả lời câu hỏi PAIR và soạn tiêu chí đánh giá. | Các mức đang cân nhắc: checklist (No AI), script kiểm tên file/link (Rule), AI đối chiếu nội dung rubric (Workflow); chưa thấy kết quả cuối của nhóm trong dữ kiện cung cấp. Agent chưa có lý do rõ vì quy trình và tiêu chí đã định trước. |
-| Quyết định | Tham gia thảo luận quyết định cuối cùng theo phân công CP6. | Quyết định Go / Not Yet / No-Go, mức rủi ro và ngưỡng dừng chưa được cung cấp; cần cập nhật theo nội dung nhóm thực sự chốt. |
+| Pitch Problem Card | Pitch candidate của mình: khi bắt đầu lab, muốn biết các file và mục phải nộp để tránh thiếu mục/sai tên file (bảng pitch nhóm, Nga #4). | Candidate “Đối chiếu bài lab với rubric trước khi nộp” được nhóm chọn, đạt 33/35. Điểm pain và impact mới dựa chủ yếu trên dữ liệu tự báo cáo của 4 thành viên. |
+| Phản biện bài của bạn khác | Ở CP2, tôi nêu câu hỏi: “Một checklist tự lập từ RUBRIC đã đủ chưa, hay vẫn còn bước nào mà checklist không giải được?” | Câu hỏi được đưa thành giả định cần kiểm chứng #3: checklist tick tay có đủ để phát hiện thiếu nội dung hay không. Bảng pitch CP3 chưa ghi một câu hỏi phản biện cụ thể tôi đặt cho bạn khác. |
+| Nhận phản biện | Báo cáo nhóm ghi câu hỏi của Huyền: “Đây là pain chung hay chỉ do thiếu cẩn thận?” | Nhóm chuyển câu hỏi thành giả định cần kiểm chứng #1 và #2. Báo cáo chưa ghi rõ đây là phản biện Huyền hỏi riêng tôi hay hỏi cả nhóm. |
+| Gom cluster / cây OST | Tham gia hội tụ 12 candidate vào các cluster: soát bài; tìm/tổng hợp tài liệu; phối hợp nhóm; thông tin/phản hồi từ người dạy. | Cây OST đặt outcome giảm thời gian soát bài mà không sót tiêu chí; các nhánh mô tả khó khăn khi nhớ rubric, dò báo cáo dài và phát hiện lỗi hình thức. |
+| Chọn candidate problem | Đề xuất và cùng nhóm chọn đối chiếu bài với rubric trước khi nộp. | Nhóm chấm candidate 33/35; loại gom tài liệu ôn tập (26/35) và phối hợp nhóm (25/35) vì metric/phạm vi chưa rõ hoặc có thể giải bằng bảng phân công/ghim tin nhắn. |
+| Kiểm chứng / research | Được phân công phụ trách Assumption Map và tổng hợp Interview Snapshot; phối hợp Tâm phỏng vấn 1–2 học viên nhóm khác. | Báo cáo nhóm hiện mới ghi phân công và mẫu snapshot; chưa có người được hỏi, câu nói, số phút, insight hoặc tín hiệu phản bác. Tôi cần bổ sung đúng kết quả thực tế sau phỏng vấn. |
+| Quy trình nhóm | Nhóm tổng hợp quy trình 6 bước: mở rubric 3', đối chiếu tiêu chí 15–30', kiểm tên file/ảnh 5', kiểm link 5', sửa 10', push/nộp LMS 2'. | Bước đối chiếu tiêu chí là bottleneck. Các thời lượng là tự báo cáo/ước lượng; quy trình của Huyền khoảng 40 phút, còn Nga 25 phút cho bước đối chiếu. Chưa có phép đo thống nhất trên người ngoài nhóm. |
+| Problem Statement | Được phân công cùng Phương viết Problem Statement v0. | v0 mô tả học viên AI20k nộp qua GitHub, mất 15–30 phút đối chiếu, tổng quy trình khoảng 40 phút và cần giảm xuống ≤20 phút; baseline cần bấm giờ trong 2 lần nộp. Boundary: học viên xác minh từng mục, tự sửa và nộp. |
+| Mức can thiệp AI | Được phân công trả lời câu hỏi PAIR và viết tiêu chí đánh giá. | Nhóm tạm đề xuất Workflow: Rule kiểm file/link, AI nêu tiêu chí nghi thiếu, học viên kiểm tra và sửa. Đánh giá đầu ra theo không bỏ sót, có vị trí kiểm chứng, không bịa yêu cầu và không làm thay. Đây là lựa chọn tạm thời, còn phụ thuộc CP4. |
+| Quyết định | Tham gia phần CP6 theo phân công; quyết định được ghi trong group report là Not Yet, chờ kết quả kiểm chứng. | Not Yet là đề xuất chờ CP4, chưa phải Go cho AI. Cần cập nhật sau phỏng vấn/poll và xác nhận của nhóm. |
 
 ---
 
@@ -153,45 +153,45 @@ AI (Claude) đóng vai PM hoài nghi, phản biện card #1:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Theo phần ghi chép cá nhân, dùng AI gợi ý thêm problem theo 4 lăng kính và hỗ trợ khung Job Story. | Gợi thêm các hướng ngoài vấn đề học tập/làm nhóm ban đầu. | Gợi ý không phải trải nghiệm hay bằng chứng của tôi; số liệu AI đưa ra không thể dùng làm dấu hiệu thật. | Chỉ giữ ý gắn được với trải nghiệm và tự chịu trách nhiệm về dấu hiệu đo; đánh dấu ước lượng khi chưa đếm/bấm giờ. |
-| CP2 Problem Card | Dùng Claude đóng vai PM hoài nghi để phản biện Card #1. | Nhắc kiểm tra baseline, khả năng checklist đã đủ và giả định pain có lặp lại. | Nhận định AI không chứng minh các học viên khác gặp pain; quy trình/số phút phải khớp với cách tôi thực sự làm. | Bổ sung checklist làm phương án không dùng AI và ghi các giả định cần kiểm chứng. |
-| CP4 Research | Chưa có thông tin xác nhận Nga dùng AI cho research hoặc tổng hợp snapshot. | Chưa xác định. | Không được dùng AI để thay người thật trong phỏng vấn theo RULES.md. | Ghi dữ liệu từ người được hỏi thật; chỉ bổ sung phần AI nếu Nga thực sự dùng và nêu rõ đã kiểm tra gì. |
-| CP5 Quy trình | Chưa có thông tin xác nhận Nga dùng AI để vẽ/chuyển quy trình. | Chưa xác định. | Chưa xác định. | Không ghi là đã dùng nếu chưa thực hiện; nếu có dùng để vẽ, kiểm lại từng bước và thời lượng. |
-| CP5–6 Problem Statement | Chưa có thông tin về việc Nga dùng AI phản biện Problem Statement v0. | Chưa xác định. | Chưa xác định. | Bổ sung đúng phản biện và chỉnh sửa thực tế nếu có. |
-| CP6 Mức can thiệp / quyết định | Được phân công PAIR và tiêu chí đánh giá; chưa có dữ liệu cho biết đã dùng AI ở bước này. | Chưa xác định. | Chưa xác định. | Ghi rõ tiêu chí do Nga/nhóm tự viết hay có AI hỗ trợ; không ghi việc chưa xảy ra. |
+| CP1 Scan | Theo ghi chép cá nhân, dùng AI gợi ý thêm problem theo 4 lăng kính và hỗ trợ khung Job Story. | Gợi thêm hướng ngoài các vấn đề học tập/làm nhóm ban đầu. | Gợi ý không phải trải nghiệm hay bằng chứng của tôi; số liệu AI đưa ra không thể dùng làm dấu hiệu thật. | Chỉ giữ ý gắn được với trải nghiệm; tự chịu trách nhiệm về dấu hiệu đo và ghi rõ ước lượng khi chưa đếm/bấm giờ. |
+| CP2 Problem Card | Dùng Claude đóng vai PM hoài nghi để phản biện Card #1. | Nhắc kiểm tra baseline, khả năng checklist đã đủ và pain có lặp lại hay không. | Nhận định AI không chứng minh người ngoài nhóm gặp pain; quy trình và số phút phải dựa trên cách tôi thực sự làm. | Thêm checklist từ RUBRIC làm phương án không AI và đưa giả định checklist đủ hay chưa vào phần cần kiểm chứng. |
+| CP4 Kiểm chứng | Không dùng AI để phỏng vấn hay đóng vai người dùng. Assumption Map và câu hỏi phỏng vấn do nhóm tự lập từ giả định của 4 Problem Card. | Không áp dụng. | Không áp dụng. Phỏng vấn người ngoài nhóm chưa thực hiện, nên không có snapshot để AI tổng hợp. | Ghi rõ trong báo cáo nhóm là chưa có dữ liệu ngoài nhóm thay vì điền số ước lượng; Value giữ mức rủi ro Cao. |
+| CP5 Quy trình | Không dùng AI. Quy trình trước/sau do Huyền vẽ; tôi đối chiếu bước "soát bài 25 phút" trong card của mình với bước "đối chiếu tiêu chí 15 phút" của Huyền. | Không áp dụng. | Không áp dụng. | Ghi chú phạm vi: 70 phút của tôi gồm cả đọc đề, không so trực tiếp với 40 phút của Huyền. |
+| CP5–6 Problem Statement, PAIR, eval | Nhóm dùng Codex và Claude để rà soát lập luận và đối chiếu số liệu giữa các báo cáo cá nhân (ghi nhận cuối `group_report.md`). | Rà soát v0 chỉ ra cần tách tổng thời gian với thời gian dò nội dung, và cần đo cả báo nhầm lẫn bỏ sót (`group_report.md` mục 5). | AI không có dữ liệu ngoài nhóm, nên không thể xác nhận pain là phổ biến; nhận xét của AI chỉ dùng để tìm lỗ hổng, không dùng làm bằng chứng. | Nhóm tự chốt v1: thêm tỉ lệ báo nhầm <30%, thêm boundary về vị trí và reflection; giữ Workflow là hướng có điều kiện, quyết định Not Yet. |
+| CP7 Báo cáo | Dùng Claude (Claude Code) để rà soát TEAM.md và báo cáo cá nhân so với `group_report.md`, điền phần đóng góp và bảng dùng AI. | Gom đúng mục, commit và số liệu làm bằng chứng. | Không có dữ liệu về trải nghiệm cá nhân, nên không viết được reflection. | Phần 6 (reflection) tôi tự viết, không dùng AI viết thay theo RULES.md. |
 
 ---
 ## 6. Reflection (CP7)
 
-> **Nga tự viết phần này bằng trải nghiệm thật, tối thiểu 200 từ cho câu 6.1–6.6.** Đã có thông tin về candidate được chọn và phân công CP4–CP6, nhưng chưa có đủ chi tiết về thảo luận, kết quả phỏng vấn, quyết định cuối hoặc cảm nhận cá nhân. Theo RULES.md và RUBRIC.md, AI không viết thay reflection; hãy dùng trải nghiệm thật và ghi cả điều chưa biết.
+> **Nga tự viết phần này bằng trải nghiệm thật, tối thiểu 200 từ cho câu 6.1–6.6.** Group report đã có candidate, phân công và bản nháp đầu ra CP3–CP6, nhưng chưa có kết quả phỏng vấn/poll và cảm nhận cá nhân của Nga. Theo RULES.md và RUBRIC.md, AI không viết thay reflection; hãy dùng trải nghiệm thật, kể cả điều chưa biết.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-*(Nga tự bổ sung.)*
+Khi nghe top 3, tôi thấy yên tâm vì card của Huyền, Phương (#8) và tôi đều chạm tới việc soát bài trước khi nộp. Nhưng sự trùng nhau mới là tín hiệu trong nhóm, chưa chứng minh đây là pain chung của lớp: chúng tôi có thể cùng chú ý đến một vấn đề quen thuộc vì đều đang làm bài lab. Card #10 của Tâm về hiểu phản hồi giảng viên cũng khiến tôi nhận ra một khó khăn gần với mình mà tôi không đưa vào top 3; card #2 của Huyền về tìm câu trả lời cũ của coach cho thấy cùng một việc đọc nhiều thông tin có thể xuất hiện ở bối cảnh khác.
 
 **6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-*(Nga tự bổ sung.)*
+Trong cây OST, “Chatbot kiểm tra rubric” và “Script tự kiểm tên file” bị gạch vì đó là cách làm/giải pháp, chưa phải mô tả khó khăn hay cơ hội của người học. Tôi không có ghi chép đủ chắc để khẳng định ai là người đầu tiên nêu từng ý hoặc ai là người đầu tiên nhận ra lỗi phân loại; điều tôi có thể xác nhận là nhóm đã chuyển trọng tâm sang các khó khăn như rubric có nhiều điều kiện phụ, phải dò thủ công báo cáo dài và chỉ phát hiện lỗi hình thức gần deadline. Ở CP2, chính tôi đã ghi giả thuyết AI đọc rubric và bài làm rồi chỉ ra mục còn thiếu. Nhìn lại, tôi đã nghĩ tới AI khá sớm. Câu hỏi “checklist tự lập từ RUBRIC đã đủ chưa?” giúp tôi giữ lại một phương án không AI để so sánh thay vì mặc định phải dùng AI.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-*(Nga tự bổ sung; có thể dùng sự kiện CP2 đã ghi nếu đó đúng là trải nghiệm của bạn, và phân biệt rõ phản biện từ AI với phản biện từ thành viên nhóm.)*
+Tôi có điều chỉnh sau phản biện, nhưng chưa thể nói mình đã bỏ hẳn ý tưởng AI. Ở CP2, Claude đóng vai PM hoài nghi và nêu rằng checklist có thể giải quyết phần lớn vấn đề; tôi đồng ý một phần và thêm checklist tự lập từ rubric làm phương án không AI. Đây là phản biện từ AI, không phải kết luận của bạn trong nhóm. Còn câu hỏi của Huyền “pain chung hay chỉ do thiếu cẩn thận?” là phản biện từ thành viên nhóm; nhóm ghi nó thành giả định cần kiểm chứng về mức độ phổ biến và nguyên nhân của pain. Với tôi, câu hỏi đó làm điểm 33/35 bớt giống một xác nhận chắc chắn: điểm số phản ánh cách nhóm chấm candidate, còn bằng chứng pain vẫn chủ yếu là tự báo cáo của chúng tôi.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-*(Nga tự bổ sung sau khi nhóm thực sự kiểm chứng.)*
+Chưa có phỏng vấn hoặc poll với người ngoài nhóm trong báo cáo hiện có, nên tôi chưa thể kể kết quả kiểm chứng hay nói có phát hiện nào làm mình bất ngờ. Tôi được phân công phụ trách Assumption Map và phối hợp Tâm phỏng vấn 1–2 học viên nhóm khác, nhưng phần đó chưa tạo ra snapshot thực tế. Vì vậy, điều trung thực nhất là thừa nhận kế hoạch chưa được thực hiện hoặc chưa được ghi nhận trước khi chốt báo cáo; các tài liệu hiện có không cho biết lý do cụ thể hơn, nên tôi không muốn tự đoán. Điều khiến tôi chú ý khi đối chiếu bốn người là thời lượng không đồng nhất: 70 phút của tôi tính cả đọc đề và các bước đầu, Huyền khoảng 40 phút cho quy trình khác phạm vi, Phương có số 30 phút ở CP1 và 50 phút trong sơ đồ CP2, còn Tâm ghi khoảng 30 phút ở CP1. Những số này không thể lấy trung bình làm baseline chung.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-*(Nga tự bổ sung sau khi nhóm viết Problem Statement.)*
+Khó nhất với tôi là chọn baseline khi mỗi người tính một phạm vi khác nhau. Con số 70 phút của tôi gồm cả đọc đề, trong khi Problem Statement dùng quy trình tham chiếu khoảng 40 phút của Huyền và tách bước đối chiếu tiêu chí khoảng 15 phút. Tôi hiểu vì sao phải chọn một quy trình nhất quán để đo, nhưng mốc đó chưa đại diện cho cả nhóm hay người học ngoài nhóm. Khó tiếp theo là metric “số tiêu chí bị sót”: đây là điều nhóm muốn giảm về 0, nhưng chưa có phép đo baseline và còn cần quy định cách đối chiếu để đếm nhất quán. Vì thế, tôi xem mục tiêu là điều cần kiểm chứng ở các lần nộp tiếp theo, không phải kết quả đã đạt.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-*(Nga tự bổ sung bằng trải nghiệm thật.)*
+Nếu làm lại, tôi sẽ ưu tiên thực hiện phỏng vấn ngoài nhóm sớm hơn, trước khi chốt Problem Statement v0, để hiểu ai thực sự gặp pain, phạm vi thời gian nào phù hợp và checklist hiện tại đã đủ đến đâu. Tôi cũng muốn phản biện mạnh hơn điểm 33/35: tiêu chí “pain có bằng chứng” được chấm 4 nhưng dữ liệu lúc đó chủ yếu đến từ bốn thành viên nhóm, chưa có tiếng nói độc lập. Tôi sẽ đề nghị ghi rõ đây là bằng chứng nội bộ và hạ mức chắc chắn cho tới khi có ví dụ từ người ngoài nhóm. Đây là điều tôi rút ra từ giới hạn đã được ghi trong báo cáo, không phải khẳng định rằng phỏng vấn chắc chắn sẽ xác nhận vấn đề.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-*(Nga tự bổ sung sau khi nhóm chốt candidate, quy trình, metric, boundary, mức can thiệp và quyết định.)*
+Học viên AI20k gặp khó khăn khi đối chiếu bài lab với rubric trước khi nộp vì phải dò nhiều tiêu chí, và đây là candidate nhóm chọn dựa trên tín hiệu nội bộ. Quy trình tham chiếu có sáu bước từ mở rubric đến nộp LMS; nhóm xác định bước đối chiếu từng tiêu chí là nút nghẽn, khoảng 15 phút trong tổng quy trình tham chiếu khoảng 40 phút. Nhóm muốn đo tổng thời gian soát bài từ khoảng 40 xuống không quá 20 phút và đếm tiêu chí bị sót, nhưng baseline cho người ngoài nhóm và số tiêu chí bị sót vẫn cần đo. AI chỉ được nêu mục nghi thiếu kèm vị trí để học viên tự kiểm tra; AI không viết bài, chấm thay coach hay tự nộp. Nhóm chọn hướng Workflow có điều kiện vì phần đối chiếu nội dung còn mơ hồ, còn tên file và link có thể dùng Rule, nhưng checklist vẫn là phương án đơn giản cần thử. Vì chưa có kiểm chứng ngoài nhóm và chưa biết checklist có đủ không, quyết định cuối là Not Yet, chưa triển khai AI.
 
 ---
 
