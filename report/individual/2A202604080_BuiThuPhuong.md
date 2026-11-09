@@ -188,5 +188,6 @@ Học viên gặp khó khăn khi đối chiếu bài báo cáo Markdown với ru
 ---
 
 ## 7. Tài liệu tham khảo
-
+- `RULES.md` — quy định dùng AI, kiểm chứng và reflection.
+- `RUBRIC.md` — tiêu chí C3–C5 cho teamwork, reflection và hiểu bài.
 
