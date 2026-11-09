@@ -134,54 +134,71 @@ AI (Claude) đóng vai PM hoài nghi, phản biện card #1:
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
-| -------------------------- | ---------------------- | -------------------------------- |
-| Pitch Problem Card         |                        |                                  |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
-| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
-| Gom cluster / cây OST      |                        |                                  |
-| Chọn candidate problem     |                        |                                  |
-| Kiểm chứng / research      |                        |                                  |
-| Quy trình nhóm             |                        |                                  |
-| Problem Statement          |                        |                                  |
-| Mức can thiệp AI           |                        |                                  |
-| Quyết định                 |                        |                                  |
+> Phần nhóm trong repo hiện vẫn là template trống. Bảng dưới ghi nhận điều có thể xác minh từ báo cáo cá nhân; không suy diễn rằng đề xuất đã được trình bày, nhóm đã chốt hay đã có kiểm chứng.
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | Chuẩn bị Card #1 về việc học viên phải đọc nhiều file để xác định yêu cầu nộp lab. Câu hỏi phản biện dự kiến: “Checklist tự lập từ RUBRIC đã đủ chưa, hay còn bước nào checklist không giải quyết được?” | Đây là nội dung chuẩn bị trong báo cáo cá nhân; chưa có biên bản xác nhận đã pitch hoặc phản hồi của nhóm. |
+| Phản biện bài của bạn khác | Chưa có câu hỏi cụ thể được ghi trong repo. | Chưa có dữ kiện để xác định ảnh hưởng tới candidate khác. |
+| Nhận phản biện | Với Card #1, phần phản biện do AI nêu được ghi ở mục 3: baseline cần đo thật, pain có thể giảm khi quen cấu trúc lab, checklist có thể đã đủ. | Đã thêm checklist/RUBRIC làm phương án không dùng AI và đưa các điểm chưa chắc thành giả định cần kiểm chứng. Đây là phản biện ở CP2, không phải phản biện của thành viên nhóm. |
+| Gom cluster / cây OST | Chưa có dữ liệu teamwork trong repo. | Chưa xác minh. |
+| Chọn candidate problem | Cá nhân đề xuất Card #1 để pitch; báo cáo nhóm chưa ghi candidate được chọn. | Chưa xác minh quyết định cuối của nhóm. |
+| Kiểm chứng / research | Chưa có interview snapshot, survey hoặc bảng research trong repo. | Không ghi kết quả phỏng vấn/survey khi chưa có nguồn. |
+| Quy trình nhóm | Chưa có quy trình hiện tại/tương lai của nhóm trong `group_report.md`. | Chưa xác minh phần việc hoặc ảnh hưởng của tôi. |
+| Problem Statement | Chưa có Problem Statement nhóm trong repo. | Chưa xác minh. |
+| Mức can thiệp AI | Trong Card #1 cá nhân, tôi nêu giả thuyết AI có thể đọc rubric và bài làm để chỉ mục thiếu; chưa có quyết định mức can thiệp của nhóm. | Đây là giả thuyết ban đầu, chưa phải kết luận của nhóm. |
+| Quyết định | Chưa có quyết định Go / Not Yet / No-Go trong báo cáo nhóm. | Chưa xác minh. |
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint                     | Tôi dùng AI để làm gì?                                                  | AI hữu ích ở đâu?                                                                 | AI sai hoặc hời hợt ở đâu?                                                                                      | Tôi sửa gì bằng nhận định của mình?                                                               |
-| ------------------------------ | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| CP1 Scan                       | Gợi ý thêm problem theo 4 lăng kính và soạn khung Job Story             | Nhắc thêm các ý ngoài việc học như chia tiền nhóm, bán hàng online của người thân | Có ý quá rộng ("trợ lý quản lý toàn bộ việc học"); số liệu phải tự ước lượng, AI không biết trải nghiệm của tôi | Bỏ ý quá rộng; tự ước lượng số phút, số lần cho từng dòng                                         |
-| CP2 Problem Card               | Soạn khung 3 Problem Card và đóng vai PM hoài nghi để phản biện card #1 | Chỉ ra baseline chưa có số đo và checklist có thể đã đủ giải phần lớn vấn đề      | Quy trình AI viết theo cách học viên thường làm, chưa chắc đúng cách tôi làm                                    | Sửa lại các bước và số phút theo cách tôi thật sự làm; thêm checklist làm phương án không dùng AI |
-| CP4 Research                   |                                                                         |                                                                                   |                                                                                                                 |                                                                                                   |
-| CP5 Quy trình                  |                                                                         |                                                                                   |                                                                                                                 |                                                                                                   |
-| CP5–6 Problem Statement        |                                                                         |                                                                                   |                                                                                                                 |                                                                                                   |
-| CP6 Mức can thiệp / quyết định |                                                                         |                                                                                   |                                                                                                                 |                                                                                                   |
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+|---|---|---|---|---|
+| CP1 Scan | Theo ghi nhận trong báo cáo cá nhân, dùng AI gợi ý thêm problem theo 4 lăng kính và hỗ trợ tạo khung Job Story. | Gợi thêm các hướng ngoài những vấn đề học tập/làm nhóm ban đầu. | Gợi ý có thể quá rộng hoặc không phản ánh trải nghiệm thật; AI không thể cung cấp dấu hiệu đo lường cá nhân thay tôi. | Chỉ giữ các ý tôi có thể gắn với trải nghiệm của mình; tự kiểm tra và điền dấu hiệu thật, không xem số liệu AI gợi ý là bằng chứng. |
+| CP2 Problem Card | Dùng Claude đóng vai PM hoài nghi để phản biện Card #1. | Nhắc kiểm tra baseline, khả năng checklist đã đủ và giả định pain kéo dài qua nhiều lab. | Các nhận định về thời gian và cách học của sinh viên chưa phải dữ liệu thực tế; gợi ý AI không chứng minh người khác cũng gặp pain. | Đưa checklist thành phương án không dùng AI; ghi các điểm chưa chắc để kiểm chứng với người thật. |
+| CP4 Research | Chưa có ghi chép về việc dùng AI research trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi có research thực tế và link đã tự mở, kiểm tra. |
+| CP5 Quy trình | Chưa có ghi chép về việc dùng AI cho quy trình trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi nhóm có quy trình và xác nhận từng bước. |
+| CP5–6 Problem Statement | Chưa có ghi chép về việc dùng AI phản biện Problem Statement trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi có Problem Statement và phản biện thực tế. |
+| CP6 Mức can thiệp / quyết định | Chưa có ghi chép về việc dùng AI ở bước này trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi nhóm thảo luận và chốt quyết định. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+> **Nga tự viết phần này bằng trải nghiệm thật, tối thiểu 200 từ cho câu 6.1–6.6.** Repo hiện chưa có dữ kiện về pitch, thảo luận nhóm, kiểm chứng hay quyết định để viết reflection chính xác. Theo RULES.md và RUBRIC.md, AI không được viết thay reflection; các câu dưới đây được giữ làm câu hỏi hướng dẫn, không điền câu trả lời giả định.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+*(Nga tự bổ sung.)*
+
+**6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+*(Nga tự bổ sung.)*
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+*(Nga tự bổ sung; có thể dùng sự kiện CP2 đã ghi nếu đó đúng là trải nghiệm của bạn, và phân biệt rõ phản biện từ AI với phản biện từ thành viên nhóm.)*
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+*(Nga tự bổ sung sau khi nhóm thực sự kiểm chứng.)*
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+*(Nga tự bổ sung sau khi nhóm viết Problem Statement.)*
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi _problem → quy trình → metric → boundary → mức can thiệp AI → quyết định_ của bài nhóm mình.
+*(Nga tự bổ sung bằng trải nghiệm thật.)*
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+*(Nga tự bổ sung sau khi nhóm chốt candidate, quy trình, metric, boundary, mức can thiệp và quyết định.)*
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- `RULES.md` — quy định dùng AI, kiểm chứng và reflection.
+- `RUBRIC.md` — tiêu chí C3–C5 cho teamwork, reflection và hiểu bài.
