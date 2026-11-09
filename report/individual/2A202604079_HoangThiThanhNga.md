@@ -26,9 +26,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 |   9 | Tốn thời gian                     | Khi viết reflection hoặc báo cáo cuối buổi, tôi muốn nhớ lại mình đã làm gì và đổi ý ở đâu, để viết đúng và đủ                                           | Học viên                                           | Lần viết gần nhất mất 30 phút lục lại chat, commit, ghi chú                                |
 |  10 | Pain từ người khác                | Khi người thân bán hàng online nhận tin nhắn khách, họ muốn trả lời nhanh các câu hỏi lặp lại về giá, size, phí ship, để không mất khách vì trả lời chậm | Người bán hàng online, khách hàng                  | Người thân nhận 50 tin nhắn/ngày, khoảng 60% là câu hỏi lặp lại (hỏi trực tiếp người thân) |
 
-**Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
-
-- Tự scan trước các ý về việc học và làm nhóm, sau đó hỏi AI (Claude) gợi ý thêm theo 4 lăng kính. Giữ ý chia tiền nhóm (#7) và bán hàng online của người thân (#10). Bỏ ý "trợ lý quản lý toàn bộ việc học" vì quá rộng, không có quy trình cụ thể.
 
 ---
 
