@@ -67,3 +67,28 @@ Tìm tài liệu
 Tổng thời gian: khoảng 45 phút cho khoảng 4 nguồn
 Bottleneck: chưa đo riêng từng bước
 
+### Problem Card #3 — Xác định người phụ trách từng phần bài nhóm (vấn đề #1)
+
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi bắt đầu làm bài nhóm mỗi tuần, tôi muốn biết rõ ai phụ trách từng phần, để nhóm không mất thời gian hỏi lại và tránh bỏ sót hoặc làm trùng việc. |
+| Actor | Các thành viên trong nhóm. |
+| Thời điểm / bối cảnh | Khi nhóm bắt đầu công việc trong tuần và cần thống nhất phân công. |
+| Quy trình hiện tại (3–7 bước) | 1. Xem các phần việc cần làm → 2. Kiểm tra phân công hiện có → 3. Hỏi lại khi chưa rõ người phụ trách → 4. Thống nhất phân công với nhóm → 5. Bắt đầu thực hiện công việc. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Hỏi và xác nhận người phụ trách; mất khoảng 10 phút mỗi tuần theo ghi nhận hiện tại. |
+| Impact (nếu không giải thì sao) | Nhóm mất thời gian xác nhận phân công. Việc bỏ sót hoặc làm trùng phần việc là rủi ro cần kiểm chứng thêm. |
+| Success metric (baseline → target) | Thời gian hỏi và xác nhận phân công: khoảng 10 phút/tuần → mục tiêu đề xuất dưới 5 phút/tuần. Cần theo dõi thêm việc có bỏ sót hoặc làm trùng không. |
+| Phương án không dùng AI | Dùng một bảng phân công chung, ghi rõ đầu việc, người phụ trách, thời hạn và trạng thái. |
+| Giả thuyết về AI (nếu có) | Chưa thấy cần dùng AI; nên thử bảng phân công và thống nhất cách cập nhật trước. |
+| Cảm nhận nhanh | Rule hoặc No AI. |
+
+Quy trình nháp hiện tại:
+
+```text
+Xem các phần việc cần làm
+→ Kiểm tra phân công hiện có
+→ Hỏi lại phần chưa rõ
+→ Thống nhất người phụ trách
+→ Bắt đầu thực hiện
+Thời gian hỏi và xác nhận: khoảng 10 phút/tuần
+Bottleneck: hỏi và xác nhận phân công
