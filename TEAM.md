@@ -4,18 +4,18 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: Nhom7
+- Candidate problem nhóm chọn (1 câu): Học viên AI20k mất nhiều thời gian và dễ sót yêu cầu khi đối chiếu bài lab với rubric trước khi nộp.
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Bùi Thu Phương | 2A202604080 | Nhóm trưởng (fork repo, mời thành viên); viết Problem Statement v0 | buiphuong33 |
+| 2 | Hoàng Thị Thanh Nga | 2A202604079 | Phụ trách kiểm chứng (Assumption Map, interview snapshot); viết Problem Statement v0; câu hỏi PAIR và tiêu chí đánh giá | Ngahoang2005 |
+| 3 | Dương Thị Huyền | 2A202604077 | Vẽ quy trình trước/sau | duongthuyen |
+| 4 | Phạm Minh Tâm | 2A202604097 | Phụ trách kiểm chứng | minhtama11qc-hash |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,19 +25,63 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Cả nhóm (mỗi người pitch top 3) | — | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Nga | Tâm | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Phương | Cả nhóm | Bảng research có link |
+| CP5 — Quy trình trước/sau | Huyền | — | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Nga | Phương | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nga | Cả nhóm | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Cả nhóm | — | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### DuongThiHuyen-2A202604077
+
+**Phần việc phụ trách:**
+
+- CP5 — vẽ quy trình hiện tại và quy trình tương lai, bảng before/after.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch Problem Card #1 "Kiểm tra bài lab trước khi nộp". Card này là nguồn của candidate A mà nhóm chọn.
+- Cung cấp quy trình tham chiếu 6 bước, ~40 phút, có bottleneck ở bước đối chiếu tiêu chí (~15 phút). Nhóm dùng quy trình này cho mục 4.1 và cho baseline của Problem Statement.
+- Vẽ quy trình tương lai 5 bước (Rule → AI → con người), có boundary, phương án quay về và bảng before/after.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md` mục 2.1 (candidate #1–#3), mục 4.1–4.3.
+- `report/individual/2A202604077_DuongThiHuyen.md` mục 3, Problem Card #1.
+- Commit `1ff1cb8` (báo cáo cá nhân).
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### PhamMinhTam-2A202604097
+
+**Phần việc phụ trách:**
+
+- CP4 — kiểm chứng và phản biện: tham gia phỏng vấn cùng Nga, góp ý cho Assumption Map và các candidate phản biện.
+- CP2 — xây dựng Problem Card #1 và #2 cho các vấn đề về phản hồi giảng viên và ôn tập từ nhiều nguồn.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Ghi nhận 5 vấn đề scan ban đầu và chọn top 3 gồm: đối chiếu phản hồi giảng viên, ôn tập từ slide và ghi chú, xác định người phụ trách phần việc nhóm.
+- Làm Problem Card #1 "Đối chiếu phản hồi của giảng viên" và Problem Card #2 "Ôn tập từ slide và ghi chú" trong báo cáo cá nhân.
+- Góp phần xác định bottleneck thực tế: mất khoảng 180 phút đối chiếu phản hồi, và khoảng 45 phút để tổng hợp 4 nguồn tài liệu trước kiểm tra.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md` mục 2.1 (candidate #10, #11, #12) và mục 3.2.
+- `report/individual/2A202604097_PhamMinhTam.md` mục 2 (scan problem), mục 3 (top 3 card + quy trình nháp).
+
+**Điều mình học được từ phần nhóm:**
+
+- Vấn đề cần tập trung là những việc lặp lại và tốn thời gian, không phải chỉ là câu hỏi chung. Mỗi candidate cần có actor, quy trình rõ và bằng chứng thời gian cụ thể trước khi chọn giải pháp.
+
+### BuiThuPhuong-2A202604080
 
 **Phần việc phụ trách:**
 
@@ -54,3 +98,26 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### HoangThiThanhNga-2A202604079
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+
+
+
+

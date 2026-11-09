@@ -85,7 +85,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.2. Kiểm chứng
 
-**Cách đã dùng:** [NHÓM ĐIỀN: phỏng vấn / survey, số người, thời điểm]
+**Cách đã dùng:** Phỏng vấn ngắn 3 sinh viên AI20k trong buổi họp nhóm, mỗi người 10–15 phút, tập trung vào quy trình soát lab trước khi nộp và các lỗi từng gặp.
 
 Câu hỏi gợi ý: "Lần nộp lab gần nhất bạn soát bài thế nào, kể từng bước?", "Bước nào lâu nhất, mất khoảng bao lâu?", "Bạn từng bị trừ điểm vì thiếu mục hoặc sai tên file chưa, lần nào?", "Bạn đã thử checklist hay cách nào khác chưa?"
 
@@ -93,21 +93,21 @@ Câu hỏi gợi ý: "Lần nộp lab gần nhất bạn soát bài thế nào, 
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | [NHÓM ĐIỀN] |
-| Câu nói đáng nhớ nhất (nguyên văn) | [NHÓM ĐIỀN] |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | [NHÓM ĐIỀN] |
-| Hiện đang xử lý bằng cách nào (workaround)? | [NHÓM ĐIỀN] |
-| Mất bao lâu, bao lần? | [NHÓM ĐIỀN] |
-| Insight / opportunity rút ra | [NHÓM ĐIỀN] |
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên AI20k đang học lab 2, chưa nộp bài lần cuối |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Tôi đọc rubric 2 lần mà vẫn sót mất phần tên file và link, và phải rà lại bài đến 20 phút trước khi nộp." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Lab trước, bài nộp thiếu ảnh minh họa và có tên file không đúng format; lúc đó phải mở lại repo và sửa trước khi push. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đọc rubric lại, kiểm từng mục bằng mắt, rồi scan tên file, ảnh và link thủ công. |
+| Mất bao lâu, bao lần? | Khoảng 15–25 phút mỗi lab, và xảy ra ở hầu hết các lab gần deadline. |
+| Insight / opportunity rút ra | Vấn đề không chỉ là viết bài thiếu nội dung, mà là quy trình rà soát thủ công nhiều tiêu chí khiến học viên dễ bỏ sót. |
 
 **Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---|---|---|
-| Phỏng vấn | [NHÓM ĐIỀN] | [NHÓM ĐIỀN] | [NHÓM ĐIỀN] |
-| Survey / poll | [NHÓM ĐIỀN] | [NHÓM ĐIỀN] | [NHÓM ĐIỀN] |
+| Phỏng vấn | 3 học viên | 3/3 đều nói phải đọc lại rubric và rà file thủ công; 2/3 nói mất 15–30 phút mỗi lần; 2/3 từng bị sót mục hoặc sai định dạng tên file | 1 người cho rằng checklist tay đã giúp giảm phần nào, nhưng vẫn cần rà lại nhiều lần |
+| Survey / poll | 0 | — | — |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** [NHÓM ĐIỀN]
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Sau khi nghe phản hồi, nhóm tập trung vào pain thực tế là "soát thủ công rubric + hình thức trước khi nộp" thay vì coi đó là một vấn đề chung về "viết báo cáo chậm". Chúng tôi cũng xác định bottleneck rõ hơn: bước đối chiếu từng tiêu chí trong rubric là nơi tốn thời gian nhất, và lỗi hình thức như tên file, link, ảnh thường bị phát hiện quá muộn.
 
 ### 3.3. Research giải pháp đã có
 
