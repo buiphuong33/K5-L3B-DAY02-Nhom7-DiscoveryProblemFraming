@@ -81,19 +81,28 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- CP4 — người chính phần kiểm chứng: Assumption Map, kế hoạch phỏng vấn và Interview Snapshot (Tâm hỗ trợ).
+- CP5 — người chính Problem Statement v0 (Phương hỗ trợ).
+- CP6 — người chính mức can thiệp AI và Problem Statement v1: hai câu hỏi Google PAIR và tiêu chí đánh giá đầu ra của AI.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Scan 10 problem theo 4 lăng kính (CP1) và viết 3 Problem Card có quy trình nháp, bấm giờ từng bước (CP2). Pitch 3 candidate #4–#6 ở CP3; candidate #4 (soát bài trước khi nộp, bottleneck 25 phút) cùng card của Huyền và Phương được gom vào cluster A mà nhóm chọn.
+- Đặt câu hỏi "checklist tự lập từ RUBRIC đã đủ chưa?". Nhóm đưa câu này thành giả định #3 trong Assumption Map và giữ No AI (checklist) làm phương án thử trước, đồng thời là phương án quay về.
+- Lập Assumption Map 6 giả định (Value / Usability / Feasibility / Viability) và bộ câu hỏi phỏng vấn về hành vi đã xảy ra, có câu tìm tín hiệu phản bác. Phỏng vấn người ngoài nhóm chưa thực hiện, nên snapshot chưa có số liệu.
+- Problem Statement v0 → v1: thêm tỉ lệ báo nhầm vào metric, thêm boundary "phải chỉ ra vị trí trong bài, không viết reflection", thu hẹp actor về người soát báo cáo Markdown.
+- Viết hai câu trả lời PAIR (augment; bỏ sót tệ hơn báo nhầm) và 4 tiêu chí đánh giá đầu ra: không bỏ sót, có vị trí kiểm được, không bịa yêu cầu, không làm thay.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `report/team/group_report.md` mục 2.1 (candidate #4–#6), mục 3.1–3.2 (Assumption Map, kế hoạch phỏng vấn), mục 5 (Problem Statement v0), mục 6.4 (PAIR), mục 7 (v1 và tiêu chí đánh giá).
+- `report/individual/2A202604079_HoangThiThanhNga.md` mục 2–4.
+- Commit `0bbeba5`, `cf4ca47`, `138a9a6`, `783f138` (báo cáo cá nhân).
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Số phút của từng người không cộng hay so trực tiếp được: card của mình là 70 phút (tính cả đọc đề), của Huyền là 40 phút (chỉ soát bài). Phải thống nhất phạm vi đo trước khi lấy làm baseline.
+- Câu hỏi "checklist đã đủ chưa?" giúp nhóm không nhảy thẳng lên Workflow; phương án đơn giản nhất phải được thử và có ngưỡng dừng rõ ràng.
 
 ### PhamMinhTam-2A202604097
 
