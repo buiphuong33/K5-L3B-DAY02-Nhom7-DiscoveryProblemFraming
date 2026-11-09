@@ -20,10 +20,10 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Lặp lại|Khi bắt đầu tuần học mới, tôi muốn thấy mọi deadline của các môn ở một chỗ, để không bỏ sót bài nộp | Sinh viên học nhiều môn | ___ phút/tuần kiểm tra LMS và nhóm chat; ___ lần trễ hoặc suýt trễ trong học kỳ này  | | |
+| 2 |tốn thời gian |Khi ôn thi cuối kỳ từ slide, sách và ghi chép rời rạc, tôi muốn biết phần nào là trọng tâm mình chưa nắm, để dồn thời gian đúng chỗ | | |
+| 3 |Pain từ người khác | Khi các bạn trong lớp hỏi lại quy định nộp bài đã được thông báo, lớp trưởng muốn chỉ ngay đúng thông báo gốc, để không phải trả lời lặp lại | Lớp trưởng, trợ giảng, sinh viên | ___ câu hỏi lặp lại/tuần (đếm trong nhóm chat); ___ phút tìm lại thông báo| | |
+| 4 | Lặp lại|Khi giảng viên đổi lịch hoặc phòng học, tôi muốn biết ngay thông tin mới nhất, để không đến sai giờ, sai phòng | Sinh viên, lớp trưởng | ___ lần đổi lịch/học kỳ (đếm tin nhắn nhóm lớp); ___ lần đi nhầm | | | |
 | 5 | | | | |
 | 6 | | | | |
 | 7 | | | | |
