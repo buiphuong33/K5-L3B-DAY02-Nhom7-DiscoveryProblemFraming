@@ -134,20 +134,18 @@ AI (Claude) đóng vai PM hoài nghi, phản biện card #1:
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-> Phần nhóm trong repo hiện vẫn là template trống. Bảng dưới ghi nhận điều có thể xác minh từ báo cáo cá nhân; không suy diễn rằng đề xuất đã được trình bày, nhóm đã chốt hay đã có kiểm chứng.
-
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Chuẩn bị Card #1 về việc học viên phải đọc nhiều file để xác định yêu cầu nộp lab. Câu hỏi phản biện dự kiến: “Checklist tự lập từ RUBRIC đã đủ chưa, hay còn bước nào checklist không giải quyết được?” | Đây là nội dung chuẩn bị trong báo cáo cá nhân; chưa có biên bản xác nhận đã pitch hoặc phản hồi của nhóm. |
-| Phản biện bài của bạn khác | Chưa có câu hỏi cụ thể được ghi trong repo. | Chưa có dữ kiện để xác định ảnh hưởng tới candidate khác. |
-| Nhận phản biện | Với Card #1, phần phản biện do AI nêu được ghi ở mục 3: baseline cần đo thật, pain có thể giảm khi quen cấu trúc lab, checklist có thể đã đủ. | Đã thêm checklist/RUBRIC làm phương án không dùng AI và đưa các điểm chưa chắc thành giả định cần kiểm chứng. Đây là phản biện ở CP2, không phải phản biện của thành viên nhóm. |
-| Gom cluster / cây OST | Chưa có dữ liệu teamwork trong repo. | Chưa xác minh. |
-| Chọn candidate problem | Cá nhân đề xuất Card #1 để pitch; báo cáo nhóm chưa ghi candidate được chọn. | Chưa xác minh quyết định cuối của nhóm. |
-| Kiểm chứng / research | Chưa có interview snapshot, survey hoặc bảng research trong repo. | Không ghi kết quả phỏng vấn/survey khi chưa có nguồn. |
-| Quy trình nhóm | Chưa có quy trình hiện tại/tương lai của nhóm trong `group_report.md`. | Chưa xác minh phần việc hoặc ảnh hưởng của tôi. |
-| Problem Statement | Chưa có Problem Statement nhóm trong repo. | Chưa xác minh. |
-| Mức can thiệp AI | Trong Card #1 cá nhân, tôi nêu giả thuyết AI có thể đọc rubric và bài làm để chỉ mục thiếu; chưa có quyết định mức can thiệp của nhóm. | Đây là giả thuyết ban đầu, chưa phải kết luận của nhóm. |
-| Quyết định | Chưa có quyết định Go / Not Yet / No-Go trong báo cáo nhóm. | Chưa xác minh. |
+| Pitch Problem Card | Đề xuất card “Đối chiếu bài lab với rubric trước khi nộp”, tương ứng Card #1 cá nhân. | Nhóm chọn candidate này để đào sâu. Bảng chấm nhóm ghi 33/35: actor 5, quy trình 5, pain có bằng chứng 4, impact 4, vừa sức 5, so sánh 4 mức 5, hiểu domain 5. Điểm là đánh giá của nhóm, không phải số đo độc lập. |
+| Phản biện bài của bạn khác | Chưa có câu hỏi Nga đặt cho thành viên khác trong thông tin được cung cấp. | Cần Nga bổ sung câu hỏi thực tế để hoàn thành nhật ký phản biện CP3. |
+| Nhận phản biện | Chưa có câu hỏi cụ thể Nga nhận được từ thành viên nhóm được ghi lại. | Cần bổ sung phản biện thực tế và thay đổi của Nga (nếu có); không suy diễn từ phản biện AI ở CP2. |
+| Gom cluster / cây OST | Tham gia hội tụ từ các candidate của 4 thành viên; nhóm so sánh bài đối chiếu rubric, ôn tập tài liệu và cập nhật quyết định nhóm. | Card đối chiếu rubric được chọn vì quy trình rõ, có hậu quả theo rubric và vừa sức kiểm chứng; nhánh/cây OST chi tiết chưa có trong dữ kiện hiện có. |
+| Chọn candidate problem | Đề xuất và cùng nhóm chọn vấn đề đối chiếu bài lab với rubric trước khi nộp. | Bài toán nhóm được thu hẹp vào phát hiện mục/tiêu chí còn thiếu và lỗi tên file trước khi nộp. Checklist từ RUBRIC và SUBMISSION là phương án không dùng AI để so sánh. |
+| Kiểm chứng / research | Được phân công phụ trách Assumption Map và tổng hợp Interview Snapshot; phối hợp Tâm phỏng vấn 1–2 học viên ở nhóm khác. | Chưa có snapshot, ngày/số người, câu nói, tín hiệu xác nhận/phản bác hoặc research trong thông tin gửi. Bổ sung kết quả thực tế trước khi nộp; không ghi số liệu phỏng vấn khi chưa có. |
+| Quy trình nhóm | Dựa trên các ước lượng do 4 thành viên cung cấp: mở rubric 3', đối chiếu tiêu chí 15–30', kiểm tên file/ảnh và link 10', sửa 10', push và nộp LMS 2'. | Bước đối chiếu tiêu chí là bottleneck được các thành viên ước lượng 15–30 phút; cần ghi rõ đây là tự báo cáo/ước lượng và bấm giờ ở lab kế tiếp để xác lập baseline. Huyền phụ trách sơ đồ quy trình chi tiết. |
+| Problem Statement | Được phân công cùng Phương soạn Problem Statement v0. | Nội dung cần mô tả học viên AI20k nộp qua GitHub, bottleneck khi đối chiếu từng tiêu chí và impact của thiếu mục/sai tên file. Baseline nhóm tạm ước lượng khoảng 40 phút/lần; mục tiêu ≤15 phút và không sót tiêu chí, cần đo ở lab tiếp theo. |
+| Mức can thiệp AI | Được phân công trả lời câu hỏi PAIR và soạn tiêu chí đánh giá. | Các mức đang cân nhắc: checklist (No AI), script kiểm tên file/link (Rule), AI đối chiếu nội dung rubric (Workflow); chưa thấy kết quả cuối của nhóm trong dữ kiện cung cấp. Agent chưa có lý do rõ vì quy trình và tiêu chí đã định trước. |
+| Quyết định | Tham gia thảo luận quyết định cuối cùng theo phân công CP6. | Quyết định Go / Not Yet / No-Go, mức rủi ro và ngưỡng dừng chưa được cung cấp; cần cập nhật theo nội dung nhóm thực sự chốt. |
 
 ---
 
@@ -155,18 +153,17 @@ AI (Claude) đóng vai PM hoài nghi, phản biện card #1:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Theo ghi nhận trong báo cáo cá nhân, dùng AI gợi ý thêm problem theo 4 lăng kính và hỗ trợ tạo khung Job Story. | Gợi thêm các hướng ngoài những vấn đề học tập/làm nhóm ban đầu. | Gợi ý có thể quá rộng hoặc không phản ánh trải nghiệm thật; AI không thể cung cấp dấu hiệu đo lường cá nhân thay tôi. | Chỉ giữ các ý tôi có thể gắn với trải nghiệm của mình; tự kiểm tra và điền dấu hiệu thật, không xem số liệu AI gợi ý là bằng chứng. |
-| CP2 Problem Card | Dùng Claude đóng vai PM hoài nghi để phản biện Card #1. | Nhắc kiểm tra baseline, khả năng checklist đã đủ và giả định pain kéo dài qua nhiều lab. | Các nhận định về thời gian và cách học của sinh viên chưa phải dữ liệu thực tế; gợi ý AI không chứng minh người khác cũng gặp pain. | Đưa checklist thành phương án không dùng AI; ghi các điểm chưa chắc để kiểm chứng với người thật. |
-| CP4 Research | Chưa có ghi chép về việc dùng AI research trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi có research thực tế và link đã tự mở, kiểm tra. |
-| CP5 Quy trình | Chưa có ghi chép về việc dùng AI cho quy trình trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi nhóm có quy trình và xác nhận từng bước. |
-| CP5–6 Problem Statement | Chưa có ghi chép về việc dùng AI phản biện Problem Statement trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi có Problem Statement và phản biện thực tế. |
-| CP6 Mức can thiệp / quyết định | Chưa có ghi chép về việc dùng AI ở bước này trong repo. | Chưa xác định. | Chưa xác định. | Bổ sung sau khi nhóm thảo luận và chốt quyết định. |
+| CP1 Scan | Theo phần ghi chép cá nhân, dùng AI gợi ý thêm problem theo 4 lăng kính và hỗ trợ khung Job Story. | Gợi thêm các hướng ngoài vấn đề học tập/làm nhóm ban đầu. | Gợi ý không phải trải nghiệm hay bằng chứng của tôi; số liệu AI đưa ra không thể dùng làm dấu hiệu thật. | Chỉ giữ ý gắn được với trải nghiệm và tự chịu trách nhiệm về dấu hiệu đo; đánh dấu ước lượng khi chưa đếm/bấm giờ. |
+| CP2 Problem Card | Dùng Claude đóng vai PM hoài nghi để phản biện Card #1. | Nhắc kiểm tra baseline, khả năng checklist đã đủ và giả định pain có lặp lại. | Nhận định AI không chứng minh các học viên khác gặp pain; quy trình/số phút phải khớp với cách tôi thực sự làm. | Bổ sung checklist làm phương án không dùng AI và ghi các giả định cần kiểm chứng. |
+| CP4 Research | Chưa có thông tin xác nhận Nga dùng AI cho research hoặc tổng hợp snapshot. | Chưa xác định. | Không được dùng AI để thay người thật trong phỏng vấn theo RULES.md. | Ghi dữ liệu từ người được hỏi thật; chỉ bổ sung phần AI nếu Nga thực sự dùng và nêu rõ đã kiểm tra gì. |
+| CP5 Quy trình | Chưa có thông tin xác nhận Nga dùng AI để vẽ/chuyển quy trình. | Chưa xác định. | Chưa xác định. | Không ghi là đã dùng nếu chưa thực hiện; nếu có dùng để vẽ, kiểm lại từng bước và thời lượng. |
+| CP5–6 Problem Statement | Chưa có thông tin về việc Nga dùng AI phản biện Problem Statement v0. | Chưa xác định. | Chưa xác định. | Bổ sung đúng phản biện và chỉnh sửa thực tế nếu có. |
+| CP6 Mức can thiệp / quyết định | Được phân công PAIR và tiêu chí đánh giá; chưa có dữ liệu cho biết đã dùng AI ở bước này. | Chưa xác định. | Chưa xác định. | Ghi rõ tiêu chí do Nga/nhóm tự viết hay có AI hỗ trợ; không ghi việc chưa xảy ra. |
 
 ---
-
 ## 6. Reflection (CP7)
 
-> **Nga tự viết phần này bằng trải nghiệm thật, tối thiểu 200 từ cho câu 6.1–6.6.** Repo hiện chưa có dữ kiện về pitch, thảo luận nhóm, kiểm chứng hay quyết định để viết reflection chính xác. Theo RULES.md và RUBRIC.md, AI không được viết thay reflection; các câu dưới đây được giữ làm câu hỏi hướng dẫn, không điền câu trả lời giả định.
+> **Nga tự viết phần này bằng trải nghiệm thật, tối thiểu 200 từ cho câu 6.1–6.6.** Đã có thông tin về candidate được chọn và phân công CP4–CP6, nhưng chưa có đủ chi tiết về thảo luận, kết quả phỏng vấn, quyết định cuối hoặc cảm nhận cá nhân. Theo RULES.md và RUBRIC.md, AI không viết thay reflection; hãy dùng trải nghiệm thật và ghi cả điều chưa biết.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
